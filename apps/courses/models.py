@@ -21,3 +21,36 @@ class Course(models.Model):
         verbose_name = "课程"
         verbose_name_plural = verbose_name
 
+
+class Lesson(models.Model):
+    course = models.ForeignKey(Course, verbose_name="所属课程")
+    name = models.CharField(max_length=100, verbose_name="章节名")
+    create_time = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
+    update_time = models.DateTimeField(auto_now=True, verbose_name="更新时间")
+
+    class Meta:
+        verbose_name = "章节"
+        verbose_name_plural = verbose_name
+
+
+class Video(models.Model):
+    lesson = models.ForeignKey(Lesson, verbose_name="所属章节")
+    name = models.CharField(max_length=100, verbose_name="视频名")
+    create_time = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
+    update_time = models.DateTimeField(auto_now=True, verbose_name="更新时间")
+
+    class Meta:
+        verbose_name = "视频"
+        verbose_name_plural = verbose_name
+
+
+class CourseResource(models.Model):
+    course = models.ForeignKey(Course, verbose_name="所属课程")
+    name = models.CharField(max_length=100, verbose_name="资源名")
+    download = models.FileField(upload_to="course/resource/%Y/%m", verbose_name="课程资源")
+    create_time = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
+    update_time = models.DateTimeField(auto_now=True, verbose_name="更新时间")
+
+    class Meta:
+        verbose_name = "资源"
+        verbose_name_plural = verbose_name
