@@ -18,7 +18,7 @@ class CityDict(models.Model):
 
 class CourseOrg(models.Model):
     name = models.CharField(max_length=50, verbose_name="机构名称")
-    desc = models.CharField(verbose_name="机构描述")
+    desc = models.CharField(max_length=200, verbose_name="机构描述")
     click_nums = models.IntegerField(default=0, verbose_name="点击数")
     fav_nums = models.IntegerField(default=0, verbose_name="收藏数")
     image = models.ImageField(upload_to="org/%Y/%m", verbose_name="封面图")

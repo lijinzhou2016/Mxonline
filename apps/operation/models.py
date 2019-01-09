@@ -3,6 +3,9 @@ from __future__ import unicode_literals
 
 from django.db import models
 
+from courses.models import Course
+from users.models import UserProfile
+
 
 class UserAsk(models.Model):
     name = models.CharField(max_length=20, verbose_name="姓名")
@@ -17,16 +20,67 @@ class UserAsk(models.Model):
 
 
 class CourseComments(models.Model):
-    pass
+    user = models.ForeignKey(UserProfile, verbose_name="用户")
+    course = models.ForeignKey(Course, verbose_name="课程")
+    comments = models.CharField(max_length=200, verbose_name="评论")
+    create_time = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
+    update_time = models.DateTimeField(auto_now=True, verbose_name="更新时间")
+
+    class Meta:
+        verbose_name = "用户评论"
+        verbose_name_plural = verbose_name
 
 
 class UserFavorite(models.Model):
-    pass
+    user = models.ForeignKey(UserProfile, verbose_name="用户")
+    fav_id = models.IntegerField(default=0, verbose_name="数据id")
+    fav_type = models.IntegerField(choices=((1, "课程"), (2, "课程机构"), (3, "课程讲师")), default=1)
+
+    create_time = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
+    update_time = models.DateTimeField(auto_now=True, verbose_name="更新时间")
+
+    class Meta:
+        verbose_name = "用户收藏"
+        verbose_name_plural = verbose_name
 
 
 class UserMessage(models.Model):
-    pass
+    user = models.IntegerField(default=0, verbose_name="用户id")
+    message = models.CharField(max_length=500, verbose_name="消息内容")
+    has_read = models.BooleanField(default=False, verbose_name="是否已读")
+    create_time = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
+    update_time = models.DateTimeField(auto_now=True, verbose_name="更新时间")
+
+    class Meta:
+        verbose_name = "用户消息"
+        verbose_name_plural = verbose_name
 
 
 class UserCourse(models.Model):
-    pass
+    user = models.ForeignKey(UserProfile, verbose_name="用户")
+    course = models.ForeignKey(Course, verbose_name="课程")
+    comments = models.CharField(max_length=200, verbose_name="评论")
+    create_time = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
+    update_time = models.DateTimeField(auto_now=True, verbose_name="更新时间")
+
+    class Meta:
+        verbose_name = "用户课程"
+        verbose_name_plural = verbose_name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

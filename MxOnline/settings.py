@@ -12,9 +12,14 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 """
 
 import os
+import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+APP_DIR = os.path.join(BASE_DIR, 'apps')
+EXTRA_APPS = os.path.join(BASE_DIR, 'extra_apps')
+sys.path.append(APP_DIR)
+sys.path.append(EXTRA_APPS)
 
 
 # Quick-start development settings - unsuitable for production
@@ -38,7 +43,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'users'
+    'users',
+    'courses',
+    'organization',
+    'operation'
 ]
 
 # 配置自定义的user表
