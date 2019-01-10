@@ -60,6 +60,9 @@ AUTHENTICATION_BACKENDS = (
     'users.views.CustomBackend',
 )
 
+# session过期时间配置
+SESSION_COOKIE_AGE = 2*7*24*60*60
+
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
