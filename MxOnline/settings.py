@@ -18,8 +18,8 @@ import sys
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 APP_DIR = os.path.join(BASE_DIR, 'apps')
 EXTRA_APPS = os.path.join(BASE_DIR, 'extra_apps')
-sys.path.append(APP_DIR)
-sys.path.append(EXTRA_APPS)
+sys.path.insert(0, APP_DIR)
+sys.path.insert(0, EXTRA_APPS)
 
 
 # Quick-start development settings - unsuitable for production
@@ -127,8 +127,11 @@ AUTH_PASSWORD_VALIDATORS = [
 # LANGUAGE_CODE = 'en-us'
 #
 # TIME_ZONE = 'UTC'
+
+# 中文
 LANGUAGE_CODE = 'zh-hans'
 
+# 时区：上海
 TIME_ZONE = 'Asia/shanghai'
 
 USE_I18N = True
@@ -136,6 +139,7 @@ USE_I18N = True
 USE_L10N = True
 
 # USE_TZ = True
+
 # 本地时间
 USE_TZ = False
 
@@ -143,3 +147,6 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")

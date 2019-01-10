@@ -1,3 +1,4 @@
+# coding: utf-8
 """MxOnline URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -14,9 +15,17 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url
-from django.contrib import admin
+from django.views.generic import TemplateView
+from django.views.static import serve
+from .settings import MEDIA_ROOT
 import xadmin
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),
+
+    # xadmin, 支持image字段显示的url配置
+    url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
+
+    # 处理静态文件
+    url('^$', TemplateView.as_view(template_name="index.html"), name="index")
 ]
