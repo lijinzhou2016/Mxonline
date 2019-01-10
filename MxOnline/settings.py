@@ -55,6 +55,11 @@ INSTALLED_APPS = [
 # 配置好后再执行makemigrations 和 migrate
 AUTH_USER_MODEL = 'users.UserProfile'
 
+# Application definition
+AUTHENTICATION_BACKENDS = (
+    'users.views.CustomBackend',
+)
+
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -147,6 +152,7 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
