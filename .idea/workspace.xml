@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b467db-9c61-41a7-8651-a2528e805ba2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/users/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MxOnline.iml" afterPath="$PROJECT_DIR$/.idea/MxOnline.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MxOnline/settings.py" afterPath="$PROJECT_DIR$/MxOnline/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MxOnline/urls.py" afterPath="$PROJECT_DIR$/MxOnline/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,107 +25,209 @@
     <favorites_list name="MxOnline" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MxOnline/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="e#657#689#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/users/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/mxonline/lib/python2.7/site-packages/django/contrib/auth/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="123" column="4" lean-forward="true" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/mxonline/lib/python2.7/site-packages/django/core/handlers/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="233" selection-start-line="233" selection-end-line="233" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/sites.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="338" selection-start-line="338" selection-end-line="338" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MxOnline/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-              <folding>
-                <element signature="e#325#334#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#nav#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="84" column="64" lean-forward="true" selection-start-line="84" selection-start-column="64" selection-end-line="84" selection-end-column="64" />
-              <folding>
-                <element signature="n#style#0;n#p#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.27750808">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MxOnline/settings.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="538">
+                  <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#325#334#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/apps/users/admin.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="38">
+                  <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="9" selection-end-column="52" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MxOnline/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="343">
+                  <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/templates/login.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="401">
+                  <caret line="75" column="71" lean-forward="true" selection-start-line="75" selection-start-column="71" selection-end-line="75" selection-end-column="71" />
+                  <folding>
+                    <element signature="e#3079#3085#0#HTML" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/views/base.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1525618188000" expanded="false" signature="0:7" ph="import ..." />
+                    <marker date="1525618188000" expanded="true" signature="17443:17536" ph="..." />
+                    <marker date="1525618188000" expanded="true" signature="17443:17656" ph="..." />
+                    <marker date="1525618188000" expanded="true" signature="17704:17963" ph="..." />
+                    <marker date="1525618188000" expanded="true" signature="18018:18465" ph="..." />
+                    <marker date="1525618188000" expanded="true" signature="18027:18117" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                    <marker date="1525618188000" expanded="true" signature="18281:18387" ph="..." />
+                    <marker date="1525618188000" expanded="true" signature="18518:18816" ph="..." />
+                    <marker date="1525618188000" expanded="true" signature="18871:19033" ph="..." />
+                    <marker date="1525618188000" expanded="true" signature="18925:19005" ph="..." />
+                    <marker date="1525618188000" expanded="true" signature="19065:19494" ph="..." />
+                    <marker date="1525618188000" expanded="true" signature="19074:19269" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                    <marker date="1525618188000" expanded="true" signature="19286:19493" ph="..." />
+                    <marker date="1525618188000" expanded="true" signature="19543:19806" ph="..." />
+                    <marker date="1525618188000" expanded="true" signature="19598:19796" ph="..." />
+                    <marker date="1525618188000" expanded="true" signature="19835:19990" ph="..." />
+                    <marker date="1525618188000" expanded="true" signature="19844:19903" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                    <marker date="1525618188000" expanded="true" signature="20032:20243" ph="..." />
+                    <marker date="1525618188000" expanded="true" signature="20041:20185" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="adminx.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="228">
+                  <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#128#141#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="339">
+                  <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+                  <folding>
+                    <element signature="e#16#55#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/manage.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="171">
+                  <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="adminx.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="399">
+                  <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="note.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/note.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="-1168">
+                    <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="461">
+                  <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#17#52#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/apps/users/forms.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="228">
+                  <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="backends.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.virtualenvs/mxonline2/lib/python2.7/site-packages/django/contrib/auth/backends.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-108">
+                  <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.virtualenvs/mxonline2/lib/python2.7/site-packages/django/contrib/auth/__init__.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="169">
+                  <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -131,55 +236,55 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>../</find>
-      <find>登录</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/users/models.py" />
-        <option value="$PROJECT_DIR$/apps/users/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/courses/models.py" />
         <option value="$PROJECT_DIR$/apps/operation/models.py" />
         <option value="$PROJECT_DIR$/apps/organization/models.py" />
-        <option value="$PROJECT_DIR$/apps/organization/adminx.py" />
-        <option value="$PROJECT_DIR$/apps/operation/adminx.py" />
-        <option value="$PROJECT_DIR$/apps/users/__init__.py" />
-        <option value="$PROJECT_DIR$/apps/courses/adminx.py" />
-        <option value="$PROJECT_DIR$/apps/courses/models.py" />
-        <option value="$PROJECT_DIR$/apps/courses/__init__.py" />
-        <option value="$PROJECT_DIR$/apps/operation/apps.py" />
-        <option value="$PROJECT_DIR$/apps/operation/__init__.py" />
-        <option value="$PROJECT_DIR$/apps/organization/__init__.py" />
-        <option value="$PROJECT_DIR$/apps/organization/apps.py" />
-        <option value="$PROJECT_DIR$/apps/users/apps.py" />
-        <option value="$PROJECT_DIR$/apps/courses/apps.py" />
-        <option value="$PROJECT_DIR$/note.md" />
-        <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/MxOnline/urls.py" />
+        <option value="$PROJECT_DIR$/apps/users/admin.py" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/apps/users/models.py" />
+        <option value="$PROJECT_DIR$/apps/users/adminx.py" />
         <option value="$PROJECT_DIR$/MxOnline/settings.py" />
+        <option value="$PROJECT_DIR$/MxOnline/urls.py" />
+        <option value="$PROJECT_DIR$/apps/users/forms.py" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/apps/users/views.py" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="669" />
-    <option name="width" value="1891" />
-    <option name="height" value="1440" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,16 +323,985 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/extra_apps" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/apps" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/MxOnline.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/MxOnline/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/MxOnline/settings.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/MxOnline/settings.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/MxOnline/urls.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/MxOnline/urls.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/MxOnline/wsgi.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/courses/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/courses/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/courses/admin.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/courses/apps.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/courses/migrations/0001_initial.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/courses/migrations/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/courses/models.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/courses/models.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/operation/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/operation/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/operation/admin.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/operation/apps.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/operation/migrations/0001_initial.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/operation/migrations/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/operation/models.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/operation/models.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/organization/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/organization/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/organization/admin.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/organization/apps.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/organization/migrations/0001_initial.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/organization/migrations/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/organization/models.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/organization/models.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/users/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/users/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/users/admin.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/users/adminx.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/users/adminx.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/users/apps.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/users/migrations/0001_initial.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/users/migrations/0002_auto_20190109_1500.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/users/migrations/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/users/models.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/users/views.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/adminx.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/apps.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/filters.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/forms.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/layout.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/migrations/0001_initial.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/migrations/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/models.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/actions.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/aggregation.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/ajax.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/auth.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/bookmark.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/chart.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/details.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/editable.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/export.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/filters.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/images.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/importexport.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/inline.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/language.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/layout.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/mobile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/multiselect.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/passwords.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/portal.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/quickfilter.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/quickform.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/refresh.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/relate.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/relfield.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/sitemenu.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/sortablelist.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/themes.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/topnav.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/utils.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/plugins/wizard.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/sites.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/templatetags/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/templatetags/xadmin_tags.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/util.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/vendors.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/views/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/views/base.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/views/dashboard.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/views/delete.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/views/detail.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/views/edit.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/views/form.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/views/list.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/views/website.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/extra_apps/xadmin/widgets.pyc</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/courses/adminx.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/courses/adminx.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/courses/apps.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/operation/adminx.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/operation/adminx.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/operation/apps.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/organization/adminx.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/organization/adminx.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/organization/apps.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/users/apps.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/users/migrations/0003_auto_20190110_0909.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/users/migrations/0003_auto_20190110_0909.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/apps/users/views.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/media/courses/2019/01/fm.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/media/courses/2019/01/fm_agACmso.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/note.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/animate.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/aui.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/aui_iconfont.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/login.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/lq.datetimepick.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/mooc.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/muke/base.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/muke/common-less.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/muke/course/common-less.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/muke/course/course-comment.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/muke/course/learn-less.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/reset.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/css/video-js.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/01.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/01_mid.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/01_small.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/02.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/02_mid.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/02_small.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/57a801860001c34b12000460.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/57aa86a0000145c512000460.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/about_nav_bg.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/aobama.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/arrow.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/arrow_g.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/authentication.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/bank1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/bank2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/bank3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/bank4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/bank5.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/banner.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/banner_icon1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/banner_icon2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/banner_icon3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/banner_icon4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/bgblack.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/billbg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/billbox.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/billboxactive.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/billcheck.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/billcheckg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/bjdx.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/btn1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/btn2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/btn3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/btn4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/check.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/check2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/check3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/check4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/check_alt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/checkbox.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/checked.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/code.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/companydes.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/companylogo.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/companyrank.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/compright.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/contract.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/course.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/delete.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/diary-edit.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/dig_close.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/down.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/drop_plus.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/drop_plus_g.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/error-img.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/feature1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/feature2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/feature3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/feature4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/feature5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/feature6.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/filebg/avi.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/filebg/cdr.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/filebg/csv.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/filebg/doc.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/filebg/jpg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/filebg/mp3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/filebg/pdf.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/filebg/png.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/filebg/ppt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/filebg/rar.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/filebg/txt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/filebg/xls.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/filebg/zip.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/filebg/复件 txt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/fold.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/footlogo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/fqy.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/g_star.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/gj.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/goback.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/gold.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/group.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/group_recommend.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/gx.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/h_star.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/header_middle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/help_index_pic.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/homepage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/ht-top.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/icon-diary-jl.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/icon-diary-my.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/icon-diary-user.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/icon-release-active.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/icon-release-on.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/icon-release-over.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/icon.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/laba.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/list_time.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/login-bg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/logo.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/logo2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/mask.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/mayun.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/module1_1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/module1_2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/module3_1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/module4_1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/module4_2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/module4_3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/module4_4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/module4_4_1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/module4_6.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/module5_1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/module5_2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/module6_1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/module6bg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/my.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/mysql.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/nav_arrow.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/nav_hot.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/njdx.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/oyf.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/path2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/path3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/path4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/path5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/path6.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pathbg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pathbg2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pay1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pay2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pay3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pay4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/paypic1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/paypic2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pen.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic10.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic11.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic12.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic13.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic1_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic403.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic404.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic503.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic6.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic7.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic8.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pic9.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pixel.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/plus.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/pop-tips-info-arr.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/python-zhengze.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/python.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/qhdx-logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/qhdx.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/r_star.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/rankgold.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/rankgreen.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/release1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/release2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/release3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/release4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/release5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/release6.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/release7.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/release8.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/right.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/rightform1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/rightform2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/rightform3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/rolling.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/sass.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/scores.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/search_btn.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/select-arr-default.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/select_arrow.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/select_arrow2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/send.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/share_c1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/share_c1_g.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/share_c2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/share_c3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/share_c4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/share_c5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/share_c6.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/share_c7.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/share_c8.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/share_c9.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/side1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/side1_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/side2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/side2_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/side3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/side3_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/side4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/side4_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/slide_l.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/slide_l_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/slide_r.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/slide_r_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/star-btn-hover.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/star-btn.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/star-hover.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/star.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/tab-jt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/tab.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/tel.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/tell.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/time.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/top_down.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/unfold.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/up.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/upload.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/user.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/weixi_icon2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/weixi_image.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/weixi_sm.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/word403.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/word503.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/x_alt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/images/zwj.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/background.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/cancel-off-big.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/cancel-on-big.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/coffee.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/face-a-off.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/face-a.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/face-b-off.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/face-b.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/face-c-off.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/face-c.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/face-d-off.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/face-d.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/face-off.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/medal-off.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/medal-on.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/star-half-big.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/star-off-big.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/img/star-on-big.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/AdrInputPopDiv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/area.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/autocomplete-init.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/bootstrap.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/comment.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/deco-comment.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/deco-common.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/deco-user.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/fastclick.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/fliplightbox.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/fold.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jQuery.artTxtCount.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jcarousel.connected-carousels.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery-migrate-1.2.1.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery-powerFloat-min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery-xmenu.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery.autocomplete.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery.cookie.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery.formset.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery.imagezoom.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery.jcarousel.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/jquery.uploadify.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/login.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/lq.datetimepick.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/datePicker/mobiscroll.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/datePicker/mobiscroll.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/jquery.flexslider-min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/jquery.raty.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/jquery.scrollLoading.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/jquery.timer.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/jquery.upload.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/laydate/laydate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/laydate/need/laydate.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/laydate/skins/default/icon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/laydate/skins/default/laydate.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/layer/extend/layer.ext.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/layer/layer.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/layer/skin/default/icon-ext.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/layer/skin/default/icon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/layer/skin/default/loading-0.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/layer/skin/default/loading-1.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/layer/skin/default/loading-2.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/layer/skin/layer.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/layer/skin/layer.ext.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/queryCity/css/cityLayout.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/queryCity/images/Thumbs.db</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/queryCity/images/bg_mc_0113_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/queryCity/images/bg_mc_0113_2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/queryCity/images/bg_mc_0113_3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/queryCity/images/bg_mc_0113_4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/queryCity/images/bg_mc_0130_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/queryCity/images/bg_mc_0130_2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/queryCity/images/ts-indexcity.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/queryCity/js/public.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/queryCity/js/public2.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/queryCity/js/queryAllAreas.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/queryCity/js/queryAllProvinces.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/queryCity/js/queryCities.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/plugins/upload.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/select.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/selectUi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/unslider.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/validate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/validateDialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/video.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/js/wechat.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/login.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/.idea/encodings.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/.idea/inspectionProfiles/profiles_settings.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/.idea/markdown-navigator/profiles_settings.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/.idea/modules.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/.idea/前端html源码.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/css/animate.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/css/aui.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/css/aui_iconfont.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/css/login.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/css/lq.datetimepick.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/css/mooc.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/css/muke/base.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/css/muke/common-less.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/css/muke/course/common-less.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/css/muke/course/course-comment.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/css/muke/course/learn-less.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/css/reset.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/css/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/css/video-js.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/403.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/404.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/500.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/course-comment.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/course-detail.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/course-list.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/course-play.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/course-video.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/forgetpwd.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/login.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/org-detail-course.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/org-detail-desc.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/org-detail-homepage.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/org-detail-teachers.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/org-list.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/password_reset.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/register.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/teacher-detail.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/teachers-list.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/usercenter-fav-course.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/usercenter-fav-org.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/usercenter-fav-teacher.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/usercenter-info.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/usercenter-message.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/html/usercenter-mycourse.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/01.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/01_mid.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/01_small.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/02.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/02_mid.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/02_small.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/57a801860001c34b12000460.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/57aa86a0000145c512000460.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/about_nav_bg.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/aobama.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/arrow.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/arrow_g.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/authentication.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/bank1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/bank2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/bank3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/bank4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/bank5.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/banner.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/banner_icon1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/banner_icon2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/banner_icon3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/banner_icon4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/bgblack.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/billbg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/billbox.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/billboxactive.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/billcheck.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/billcheckg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/bjdx.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/btn1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/btn2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/btn3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/btn4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/check.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/check2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/check3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/check4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/check_alt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/checkbox.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/checked.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/code.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/companydes.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/companylogo.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/companyrank.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/compright.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/contract.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/course.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/delete.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/diary-edit.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/dig_close.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/down.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/drop_plus.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/drop_plus_g.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/error-img.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/feature1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/feature2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/feature3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/feature4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/feature5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/feature6.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/filebg/avi.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/filebg/cdr.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/filebg/csv.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/filebg/doc.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/filebg/jpg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/filebg/mp3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/filebg/pdf.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/filebg/png.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/filebg/ppt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/filebg/rar.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/filebg/txt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/filebg/xls.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/filebg/zip.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/filebg/复件 txt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/fold.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/footlogo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/fqy.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/g_star.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/gj.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/goback.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/gold.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/group.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/group_recommend.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/gx.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/h_star.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/header_middle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/help_index_pic.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/homepage.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/ht-top.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/icon-diary-jl.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/icon-diary-my.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/icon-diary-user.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/icon-release-active.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/icon-release-on.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/icon-release-over.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/icon.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/laba.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/list_time.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/login-bg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/logo.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/logo2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/mask.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/mayun.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/module1_1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/module1_2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/module3_1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/module4_1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/module4_2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/module4_3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/module4_4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/module4_4_1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/module4_6.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/module5_1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/module5_2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/module6_1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/module6bg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/my.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/mysql.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/nav_arrow.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/nav_hot.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/njdx.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/oyf.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/path2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/path3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/path4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/path5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/path6.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pathbg.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pathbg2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pay1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pay2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pay3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pay4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/paypic1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/paypic2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pen.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic10.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic11.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic12.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic13.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic1_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic403.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic404.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic503.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic6.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic7.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic8.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pic9.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pixel.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/plus.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/pop-tips-info-arr.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/python-zhengze.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/python.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/qhdx-logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/qhdx.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/r_star.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/rankgold.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/rankgreen.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/release1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/release2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/release3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/release4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/release5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/release6.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/release7.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/release8.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/right.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/rightform1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/rightform2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/rightform3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/rolling.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/sass.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/scores.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/search_btn.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/select-arr-default.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/select_arrow.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/select_arrow2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/send.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/share_c1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/share_c1_g.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/share_c2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/share_c3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/share_c4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/share_c5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/share_c6.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/share_c7.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/share_c8.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/share_c9.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/side1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/side1_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/side2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/side2_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/side3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/side3_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/side4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/side4_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/slide_l.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/slide_l_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/slide_r.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/slide_r_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/star-btn-hover.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/star-btn.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/star-hover.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/star.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/tab-jt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/tab.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/tel.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/tell.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/time.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/top_down.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/unfold.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/up.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/upload.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/user.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/weixi_icon2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/weixi_image.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/weixi_sm.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/word403.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/word503.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/x_alt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/images/zwj.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/background.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/cancel-off-big.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/cancel-on-big.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/coffee.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/face-a-off.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/face-a.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/face-b-off.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/face-b.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/face-c-off.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/face-c.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/face-d-off.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/face-d.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/face-off.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/medal-off.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/medal-on.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/star-half-big.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/star-off-big.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/img/star-on-big.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/AdrInputPopDiv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/area.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/autocomplete-init.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/bootstrap.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/comment.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/deco-comment.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/deco-common.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/deco-user.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/fastclick.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/fliplightbox.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/fold.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/jQuery.artTxtCount.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/jcarousel.connected-carousels.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/jquery-migrate-1.2.1.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/jquery-powerFloat-min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/jquery-xmenu.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/jquery.autocomplete.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/jquery.cookie.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/jquery.formset.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/jquery.imagezoom.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/jquery.jcarousel.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/jquery.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/jquery.uploadify.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/login.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/lq.datetimepick.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/datePicker/mobiscroll.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/datePicker/mobiscroll.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/jquery.flexslider-min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/jquery.raty.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/jquery.scrollLoading.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/jquery.timer.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/jquery.upload.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/laydate/laydate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/laydate/need/laydate.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/laydate/skins/default/icon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/laydate/skins/default/laydate.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/layer/extend/layer.ext.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/layer/layer.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/layer/skin/default/icon-ext.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/layer/skin/default/icon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/layer/skin/default/loading-0.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/layer/skin/default/loading-1.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/layer/skin/default/loading-2.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/layer/skin/layer.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/layer/skin/layer.ext.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/queryCity/css/cityLayout.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/Thumbs.db</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/bg_mc_0113_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/bg_mc_0113_2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/bg_mc_0113_3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/bg_mc_0113_4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/bg_mc_0130_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/bg_mc_0130_2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/ts-indexcity.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/queryCity/js/public.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/queryCity/js/public2.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/queryCity/js/queryAllAreas.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/queryCity/js/queryAllProvinces.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/queryCity/js/queryCities.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/plugins/upload.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/select.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/selectUi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/unslider.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/validate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/validateDialog.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/video.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/js/wechat.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/Entity/2016/11/default_middile_14_20161113173158_261.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/Entity/2016/11/default_middile_1_20161113172604_856.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/Entity/ueditor/default_middile_13_20161113185849_453.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/banner/2016/11/57a801860001c34b12000460.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/banner/2016/11/57a801860001c34b12000460_z4Vb8zl.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/banner/2016/11/57aa86a0000145c512000460.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/banner/2016/11/57aa86a0000145c512000460_GXIBATC.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/banner/2016/11/57aa86a0000145c512000460_nMwvoQD.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/course/resource/2016/11/curl_wget.rar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/course/resource/2016/11/media.zip</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/11/540e57300001d6d906000338-240-135.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/11/540e57300001d6d906000338-240-135_MSIqfvw.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/11/540e57300001d6d906000338-240-135_Z3HIQ2t.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/11/540e57300001d6d906000338-240-135_mvvGYHL.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/11/540e57300001d6d906000338-240-135_n0L8vbw.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/11/540e57300001d6d906000338-240-135_wH52IED.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/11/57035ff200014b8a06000338-240-135.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/11/57035ff200014b8a06000338-240-135_0nFiBSI.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/11/57035ff200014b8a06000338-240-135_dHfj8Nq.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/11/default_middile_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/11/mysql.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/12/57035ff200014b8a06000338-240-135_dHfj8Nq.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/12/mysql.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/12/python文件处理.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/12/python错误和异常.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/2016/12/python面向对象.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/ueditor/57a801860001c34b12000460_z4Vb8zl_20161210233313_629.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/ueditor/57aa86a0000145c512000460_20161210234050_865.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/ueditor/aobama_20161113225004_372.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/courses/ueditor/aobama_20161113225044_773.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/image/2016/11/default_middile_18.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/image/2016/11/default_middile_2.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/image/2016/11/default_middile_2_WZ1559E.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/image/2016/11/default_middile_7.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/image/2016/11/default_middile_8.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/image/2016/12/default_big_14.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/org/2016/11/bjdx.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/org/2016/11/imooc.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/org/2016/11/imooc_Gn1sRjp.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/org/2016/11/imooc_OO2ykYP.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/org/2016/11/imooc_V0TJOyb.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/org/2016/11/imooc_Y2Tonsq.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/org/2016/11/imooc_klgAUn5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/org/2016/11/imooc_qEaMov1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/org/2016/11/njdx.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/org/2016/11/qhdx-logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/org/2016/12/bjdx.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/org/2016/12/bjdx_bcd0m07.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/org/2016/12/bjdx_cCpdUw8.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/org/2016/12/imooc_Gn1sRjp.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/org/2016/12/imooc_klgAUn5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/teacher/2016/11/aobama.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/media/teacher/2016/11/aobama_CXWwMef.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/前端html源码/留言板.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -241,9 +1315,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django server.MxOnline">
     <configuration name="MxOnline" type="Python.DjangoServer" factoryName="Django server">
-      <module name="MxOnline" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -255,6 +1328,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MxOnline" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="" />
@@ -264,8 +1338,10 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
-      <method v="2" />
     </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -277,386 +1353,424 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546998568266</updated>
-      <workItem from="1546998569874" duration="35091000" />
+      <workItem from="1546998569874" duration="12303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35091000" />
+    <option name="totallyTimeSpent" value="12303000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49782136" visible="true" weight="0.14336775" />
-      <window_info id="Favorites" order="1" sideWeight="0.5007299" weight="0.16023166" />
-      <window_info id="Structure" order="2" sideWeight="0.50217867" weight="0.11920849" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="manage.py@MxOnline" weight="0.39635035" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.329927" />
-      <window_info anchor="bottom" id="Terminal" weight="0.35255474" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3562044" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45586458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115879826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="manage.py@MxOnline" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28899637" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5743652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/apps/users/views.py</url>
-          <line>12</line>
+          <line>14</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/users/views.py</url>
+          <line>27</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HEAD">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/mxonline/lib/python2.7/site-packages/django/contrib/auth/base_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/mxonline/lib/python2.7/site-packages/django/contrib/auth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2072">
-          <caret line="290" column="47" selection-start-line="290" selection-start-column="35" selection-end-line="290" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/organization/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#18#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/operation/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <element signature="e#18#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/courses/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding>
-            <element signature="e#18#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/courses/2019/01/屏幕快照_2019-01-10_下午3.33.21.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/actions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4470">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/views/list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2321">
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/views/delete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/mxonline/lib/python2.7/site-packages/django/conf/urls/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-          <folding>
-            <element signature="e#128#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/views/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="314" column="7" selection-start-line="314" selection-start-column="7" selection-end-line="314" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/courses/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="48" selection-start-column="48" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/operation/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/organization/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="58" selection-start-column="58" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/organization/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/operation/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端html源码/media/teacher/2016/11/aobama.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="355">
-            <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/area.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/about_nav_bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/delete.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/feature1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/feature4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/face-a-off.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/courses/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="84" column="64" lean-forward="true" selection-start-line="84" selection-start-column="64" selection-end-line="84" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#p#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/sites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="338" selection-start-line="338" selection-end-line="338" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#657#689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/mxonline/lib/python2.7/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="233" selection-start-line="233" selection-end-line="233" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/mxonline/lib/python2.7/site-packages/django/contrib/auth/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="123" column="4" lean-forward="true" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MxOnline/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        <state relative-caret-position="855">
+          <caret line="45" column="15" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="15" />
           <folding>
             <element signature="e#325#334#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="74" />
+          <folding>
+            <element signature="e#16#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="31" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="15" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="15" />
+          <folding>
+            <element signature="e#325#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="74" />
+          <folding>
+            <element signature="e#16#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="31" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#55#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#55#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="42" column="185" lean-forward="false" selection-start-line="42" selection-start-column="185" selection-end-line="42" selection-end-column="185" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="9" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/views/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1525618188000" expanded="false" signature="0:7" ph="import ..." />
+            <marker date="1525618188000" expanded="true" signature="17443:17536" ph="..." />
+            <marker date="1525618188000" expanded="true" signature="17443:17656" ph="..." />
+            <marker date="1525618188000" expanded="true" signature="17704:17963" ph="..." />
+            <marker date="1525618188000" expanded="true" signature="18018:18465" ph="..." />
+            <marker date="1525618188000" expanded="true" signature="18027:18117" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1525618188000" expanded="true" signature="18281:18387" ph="..." />
+            <marker date="1525618188000" expanded="true" signature="18518:18816" ph="..." />
+            <marker date="1525618188000" expanded="true" signature="18871:19033" ph="..." />
+            <marker date="1525618188000" expanded="true" signature="18925:19005" ph="..." />
+            <marker date="1525618188000" expanded="true" signature="19065:19494" ph="..." />
+            <marker date="1525618188000" expanded="true" signature="19074:19269" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1525618188000" expanded="true" signature="19286:19493" ph="..." />
+            <marker date="1525618188000" expanded="true" signature="19543:19806" ph="..." />
+            <marker date="1525618188000" expanded="true" signature="19598:19796" ph="..." />
+            <marker date="1525618188000" expanded="true" signature="19835:19990" ph="..." />
+            <marker date="1525618188000" expanded="true" signature="19844:19903" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1525618188000" expanded="true" signature="20032:20243" ph="..." />
+            <marker date="1525618188000" expanded="true" signature="20041:20185" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/migrations/0003_auto_20160715_0100.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/migrations/0002_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="44" column="55" lean-forward="true" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="e#16#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1168">
+            <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/mxonline2/lib/python2.7/site-packages/django/contrib/auth/backends.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/mxonline2/lib/python2.7/site-packages/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+          <folding>
+            <element signature="e#325#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="75" column="71" lean-forward="true" selection-start-line="75" selection-start-column="71" selection-end-line="75" selection-end-column="71" />
+          <folding>
+            <element signature="e#3079#3085#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="461">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#17#52#0" expanded="true" />
           </folding>
         </state>
       </provider>

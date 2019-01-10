@@ -55,7 +55,7 @@ INSTALLED_APPS = [
 # 配置好后再执行makemigrations 和 migrate
 AUTH_USER_MODEL = 'users.UserProfile'
 
-# Application definition
+# 自定义登录函数配置
 AUTHENTICATION_BACKENDS = (
     'users.views.CustomBackend',
 )

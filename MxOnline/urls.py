@@ -20,6 +20,7 @@ from django.views.static import serve
 from .settings import MEDIA_ROOT
 import xadmin
 from users.views import mylogin
+from users.views import LoginView
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),
@@ -30,6 +31,8 @@ urlpatterns = [
     # 处理静态文件
     url('^$', TemplateView.as_view(template_name="index.html"), name="index"),
     # url('^login/$', TemplateView.as_view(template_name="login.html"), name="login")
+    # 基于函数的处理方式
+    # url('^login/$', mylogin, name="login")
 
-    url('^login/$', mylogin, name="login")
+    url("^login/$", LoginView.as_view(), name="login")
 ]
