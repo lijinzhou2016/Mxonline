@@ -5,19 +5,57 @@ from django.contrib.auth import authenticate, login
 from django.contrib.auth.backends import ModelBackend
 from django.db.models import Q
 from django.views.generic.base import View
+from django.contrib.auth.hashers import make_password
 
-from .models import UserProfile
-from .forms import LoginForm
+
+from .models import UserProfile, EmailVerifyRecord
+from .forms import LoginForm, RegisterForm
+from utils.email import send_register_email
 
 
 class CustomBackend(ModelBackend):
     def authenticate(self, username=None, password=None, **kwargs):
         try:
-            user = UserProfile.objects.get(Q(username=username)|Q(email=username))
+            user = UserProfile.objects.get(Q(username=username) | Q(email=username))
             if user.check_password(password):
                 return user
         except Exception as e:
             return None
+
+
+class ActiveUserView(View):
+    def get(self, request, active_code):
+        email_record = EmailVerifyRecord.objects.get(code=active_code)
+        if email_record:
+            email = email_record.email
+            user = UserProfile.objects.get(email=email)
+            user.is_active = True
+            user.save()
+            return render(request, 'login.html', {})
+
+
+class RegisterView(View):
+    def get(self, request):
+        register_form = RegisterForm()
+        return render(request, 'register.html', {"register_form": register_form})
+
+    def post(self, request):
+        register_form = RegisterForm(request.POST)
+        if register_form.is_valid():
+            email = request.POST.get("email")
+            password = request.POST.get("password")
+            if UserProfile.objects.filter(email=email):
+                return render(request, "register.html", {"register_form": register_form, "msg": "该邮箱已注册"})
+            user = UserProfile()
+            user.username = email
+            user.email = email
+            user.is_active = False
+            user.password = make_password(password)
+            user.save()
+            send_register_email(email)
+            return render(request, 'login.html', {"msg": "请先登录邮箱进行验证"})
+        else:
+            return render(request, 'register.html', {"register_form": register_form})
 
 
 class LoginView(View):
@@ -31,6 +69,8 @@ class LoginView(View):
             pass_word = request.POST.get("password", "")
             user = authenticate(username=user_name, password=pass_word)
             if user is not None:
+                if not user.is_active:
+                    return render(request, "login.html", {"msg": "用户未激活"})
                 login(request, user)
                 return render(request, 'index.html', {})
             else:

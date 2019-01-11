@@ -48,7 +48,8 @@ INSTALLED_APPS = [
     'organization',
     'operation',
     'xadmin',
-    'crispy_forms'
+    'crispy_forms',
+    'captcha'
 ]
 
 # 配置自定义的user表
@@ -153,9 +154,35 @@ USE_TZ = False
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
+"""
+前端的静态文件路径两种配置方法：
+1 绝对路径配置：/mystatic/css/test.css
+2 相对路径配置："{% static 'css/test.css' %}"
+"""
+# 调用时的路径
+STATIC_URL = '/mystatic/'
+# 实际具体的路径
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+
+# 新浪邮件配置
+# EMAIL_HOST = "smtp.sina.com"
+# EMAIL_PORT = 25
+# EMAIL_HOST_USER = "projectsedu@sina.com"
+# EMAIL_HOST_PASSWORD = "admin123"
+# EMAIL_USE_TLS= False
+# EMAIL_FROM = "projectsedu@sina.com"
+
+# QQ邮箱配置
+EMAIL_HOST = 'smtp.qq.com'
+EMAIL_PORT = 25
+EMAIL_HOST_USER = '414820128@qq.com'  # 你的 QQ 账号
+EMAIL_HOST_PASSWORD = "hwnhaoepeveycaee"  # '刚刚复制的授权码（不是你的 QQ 密码！！！）'开启服务：POP3/SMTP服务
+EMAIL_USE_TLS = True  # 这里必须是 True，否则发送不成功
+EMAIL_FROM = '414820128@qq.com'  # 你的 QQ 账号
