@@ -610,8 +610,8 @@ caption {
     padding: 15px;
     margin: 30px auto;
     background: #fff;
-    overflow:hidden;
-    display: none;
+    overflow: visible;
+    display: block;
 }
 
 .dialogbox h1 {

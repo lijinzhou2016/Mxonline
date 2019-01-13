@@ -25,13 +25,16 @@ class CustomBackend(ModelBackend):
 
 class ActiveUserView(View):
     def get(self, request, active_code):
-        email_record = EmailVerifyRecord.objects.get(code=active_code)
-        if email_record:
-            email = email_record.email
-            user = UserProfile.objects.get(email=email)
-            user.is_active = True
-            user.save()
+        email_records = EmailVerifyRecord.objects.filter(code=active_code)
+        if email_records:
+            for email_record in email_records:
+                email = email_record.email
+                user = UserProfile.objects.get(email=email)
+                user.is_active = True
+                user.save()
             return render(request, 'login.html', {})
+        else:
+            return render(request, 'active_fail.html', {})
 
 
 class RegisterView(View):
@@ -53,7 +56,7 @@ class RegisterView(View):
             user.password = make_password(password)
             user.save()
             send_register_email(email)
-            return render(request, 'login.html', {"msg": "请先登录邮箱进行验证"})
+            return render(request, 'login.html', {"user": {"email": email, "password": password},"msg": "请先登录邮箱进行验证"})
         else:
             return render(request, 'register.html', {"register_form": register_form})
 
@@ -79,6 +82,11 @@ class LoginView(View):
             return render(request, "login.html", {"login_forms": login_forms})
 
 
+class ForgetPwdView(View):
+    def get(self, request):
+        pass
+
+
 # 函数的方式处理响应
 def mylogin(request):
     if request.method == "POST":
@@ -86,8 +94,11 @@ def mylogin(request):
         pass_word = request.POST.get("password", "")
         user = authenticate(username=user_name, password=pass_word)
         if user is not None:
-            login(request, user)
-            return render(request, 'index.html', {})
+            if user.is_active:
+                login(request, user)
+                return render(request, 'index.html', {})
+            else:
+                return render(request, "login.html", {"msg": "该用户未激活"})
         else:
             return render(request, "login.html", {"msg": "用户名或密码错误"})
     elif request.method == "GET":

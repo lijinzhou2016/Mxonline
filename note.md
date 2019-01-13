@@ -145,7 +145,7 @@ urlpatterns = [
 ]
 ```
 
-# 验证码插件 0.4.6
+# 验证码插件
 * https://django-simple-captcha.readthedocs.io/en/latest/usage.html#installation
 ```python
 pip install  django-simple-captcha

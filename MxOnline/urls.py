@@ -21,7 +21,7 @@ from .settings import MEDIA_ROOT
 import xadmin
 
 from users.views import mylogin
-from users.views import LoginView, RegisterView, ActiveUserView
+from users.views import LoginView, RegisterView, ActiveUserView, ForgetPwdView
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),
@@ -38,5 +38,6 @@ urlpatterns = [
     url("^login/$", LoginView.as_view(), name="login"),
     url("^register/$", RegisterView.as_view(), name="register"),
     url(r'^captcha/', include('captcha.urls')),
-    url(r'^active/(?P<active_code>.*)/$', ActiveUserView.as_view(), name="active")
+    url(r'^active/(?P<active_code>.*)/$', ActiveUserView.as_view(), name="active"),
+    url(r'^forget/$', ForgetPwdView.as_view(), name="forget")
 ]
