@@ -84,6 +84,9 @@ class LoginView(View):
 
 class ForgetPwdView(View):
     def get(self, request):
+        return render(request, 'forgetpwd.html')
+
+    def post(self, request):
         pass
 
 

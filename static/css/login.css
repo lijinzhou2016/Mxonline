@@ -398,8 +398,8 @@ a:hover{
     padding: 15px;
     margin: 30px auto;
     background: #fff;
-    overflow:visible;
-    display: block;
+    overflow:hidden;
+    display: none;
 }
 .dialogbox h1{
     color:#333 ;
