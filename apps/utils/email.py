@@ -15,12 +15,13 @@ def send_register_email(email, send_type="register"):
     email_record.email = email
     email_record.save()
 
-    send_title = ""
-    send_body = ""
-
     if send_type == "register":
         send_title = "慕雪在线注册激活链接"
         send_body = "请点击如下链接激活你的账号：http://127.0.0.1:8000/active/{}".format(code)
+        send_mail(send_title, send_body, EMAIL_FROM, [email])
+    elif send_type == "forget":
+        send_title = "慕雪在线c重置密码链接"
+        send_body = "请点击如下链接重置你的密码：http://127.0.0.1:8000/reset/{}".format(code)
         send_mail(send_title, send_body, EMAIL_FROM, [email])
 
 
