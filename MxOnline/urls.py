@@ -22,6 +22,7 @@ import xadmin
 
 from users.views import mylogin
 from users.views import LoginView, RegisterView, ActiveUserView, ForgetPwdView, ResetView, ModifyPwdView
+from organization.views import OrgView
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),
@@ -42,4 +43,6 @@ urlpatterns = [
     url(r'^forget/$', ForgetPwdView.as_view(), name="forget"),
     url(r'^reset/(?P<reset_code>.*)/$', ResetView.as_view(), name="reset"),
     url(r'^modify/$', ModifyPwdView.as_view(), name="modify"),
+
+    url(r'^org/', include('organization.urls', namespace="org")),
 ]

@@ -49,7 +49,8 @@ INSTALLED_APPS = [
     'operation',
     'xadmin',
     'crispy_forms',
-    'captcha'
+    'captcha',
+    'pure_pagination',
 ]
 
 # 配置自定义的user表
@@ -89,6 +90,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.core.context_processors.media'   # media处理类, 注册MEDIA_URL
             ],
         },
     },
@@ -186,3 +188,11 @@ EMAIL_HOST_USER = '414820128@qq.com'  # 你的 QQ 账号
 EMAIL_HOST_PASSWORD = "hwnhaoepeveycaee"  # '刚刚复制的授权码（不是你的 QQ 密码！！！）'开启服务：POP3/SMTP服务
 EMAIL_USE_TLS = True  # 这里必须是 True，否则发送不成功
 EMAIL_FROM = '414820128@qq.com'  # 你的 QQ 账号
+
+# django-pure-pagination分页插件的配置
+PAGINATION_SETTINGS = {
+    'PAGE_RANGE_DISPLAYED': 5,
+    'MARGIN_PAGES_DISPLAYED': 2,
+
+    'SHOW_FIRST_PAGE_WHEN_INVALID': True,
+}

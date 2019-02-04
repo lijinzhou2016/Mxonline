@@ -133,6 +133,20 @@ class LessonAdmin(object):
 ```python
     MEDIA_URL = "/media/"
     MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+    
+    TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                ...
+                'django.core.context_processors.media'   # media处理类, 注册MEDIA_URL
+            ],
+        },
+    },
+]
 ```
 * 2 在urls.py中的配置
 ```python
@@ -144,10 +158,37 @@ urlpatterns = [
     url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT})
 ]
 ```
+* 3 html中引用
+```html
+# org.image：model中的image字段
+<img width="200" height="120" data-url="{{ MEDIA_URL }}{{ org.image }}"/>
+```
 
 # 验证码插件
 * https://django-simple-captcha.readthedocs.io/en/latest/usage.html#installation
 ```python
 pip install  django-simple-captcha
 ```
+
+# 分页插件
+
+* [https://github.com/jamespacileo/django-pure-pagination](https://github.com/jamespacileo/django-pure-pagination)
  
+```python
+# install
+pip install django-pure-pagination
+
+# settings.py中的配置
+INSTALLED_APPS = (
+    ...
+    'pure_pagination',
+)
+
+PAGINATION_SETTINGS = {
+    'PAGE_RANGE_DISPLAYED': 10,
+    'MARGIN_PAGES_DISPLAYED': 2,
+
+    'SHOW_FIRST_PAGE_WHEN_INVALID': True,
+}
+
+```
