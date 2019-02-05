@@ -192,3 +192,7 @@ PAGINATION_SETTINGS = {
 }
 
 ```
+
+beforeSend:function(xhr, settings){
+            xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
+        },
