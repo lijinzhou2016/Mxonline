@@ -2,11 +2,12 @@
 from __future__ import unicode_literals
 
 from django.db import models
-from organization.models import CourseOrg
+from organization.models import CourseOrg, Teacher
 
 
 class Course(models.Model):
     course_org = models.ForeignKey(CourseOrg, verbose_name="课程机构", null=True, blank=True)
+    teacher = models.ForeignKey(Teacher, verbose_name="课程讲师", null=True, blank=True)
     name = models.CharField(max_length=100, verbose_name="课程名")
     desc = models.CharField(max_length=300, verbose_name="课程描述")
     detail = models.TextField(verbose_name="课程详情")
@@ -16,6 +17,10 @@ class Course(models.Model):
     fav_nums = models.IntegerField(verbose_name="收藏人数", default=0)
     image = models.ImageField(verbose_name="封面", upload_to="courses/%Y/%m")
     click_nums = models.IntegerField(verbose_name="点击数", default=0)
+    category = models.CharField(max_length=20, default="后端开发", verbose_name="课程类别")
+    tag = models.CharField(default="", max_length=10, verbose_name="课程标签")
+    you_need_know = models.CharField(max_length=300, null=True, blank=True, verbose_name="课程须知")
+    teacher_tell = models.CharField(max_length=300, null=True, blank=True, verbose_name="老师告诉你")
     create_time = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
     update_time = models.DateTimeField(auto_now=True, verbose_name="更新时间")
 
@@ -25,6 +30,17 @@ class Course(models.Model):
 
     def __unicode__(self):
         return self.name
+
+    def get_zj_nums(self):
+        """获取课程章节数"""
+        return self.lesson_set.all().count()
+
+    def get_course_lesson(self):
+        """获取课程章节"""
+        return self.lesson_set.all()
+
+    def get_learn_users(self):
+        return self.usercourse_set.all()[:5]
 
 
 class Lesson(models.Model):
@@ -37,6 +53,9 @@ class Lesson(models.Model):
         verbose_name = "章节"
         verbose_name_plural = verbose_name
 
+    def get_lesson_video(self):
+        return self.video_set.all()
+
     def __unicode__(self):
         return self.name
 
@@ -44,6 +63,8 @@ class Lesson(models.Model):
 class Video(models.Model):
     lesson = models.ForeignKey(Lesson, verbose_name="所属章节")
     name = models.CharField(max_length=100, verbose_name="视频名")
+    url = models.CharField(max_length=200, null=True, blank=True, verbose_name="视频地址")
+    video_times = models.IntegerField(verbose_name="视频时长", default=0)
     create_time = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
     update_time = models.DateTimeField(auto_now=True, verbose_name="更新时间")
 

@@ -196,3 +196,9 @@ PAGINATION_SETTINGS = {
 beforeSend:function(xhr, settings){
             xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
         },
+        
+# 模板过滤器
+```python
+# 取url的前6个字符
+request.path | slice:'6'
+```

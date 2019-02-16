@@ -1,12 +1,12 @@
 <div class="pageturn">
     <ul class="pagelist">
-         {% if all_orgs.has_previous %}
-             <li class="long"><a href="?{{ all_orgs.previous_page_number.querystring }}" class="prev">&lsaquo;&lsaquo; 上一页</a></li>
+         {% if page_datas.has_previous %}
+             <li class="long"><a href="?{{ page_datas.previous_page_number.querystring }}" class="prev">&lsaquo;&lsaquo; 上一页</a></li>
          {% endif %}
 
-         {% for page in all_orgs.pages %}
+         {% for page in page_datas.pages %}
               {% if page %}
-                   {% ifequal page all_orgs.number %}
+                   {% ifequal page page_datas.number %}
                         <li class="active"><a href="?{{ page.querystring }}">{{ page }}</a></li>
                    {% else %}
                         <li><a href="?{{ page.querystring }}" class="page">{{ page }}</a></li>
@@ -16,8 +16,8 @@
               {% endif %}
          {% endfor %}
 
-         {% if all_orgs.has_next %}
-              <li class="long"> <a href="?{{ all_orgs.next_page_number.querystring }}" class="next">下一页 &rsaquo;&rsaquo;</a></li>
+         {% if page_datas.has_next %}
+              <li class="long"> <a href="?{{ page_datas.next_page_number.querystring }}" class="next">下一页 &rsaquo;&rsaquo;</a></li>
          {% endif %}
     </ul>
 </div>
