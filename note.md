@@ -202,3 +202,18 @@ beforeSend:function(xhr, settings){
 # 取url的前6个字符
 request.path | slice:'6'
 ```
+
+# radio选中状态 checked="checked"
+```html
+<input type="radio"  name="gender" value="male" {% if request.user.gender == 'male' %}checked="checked"{% endif %}>男</label>
+```
+
+# font-awesome字体库
+```python
+http://www.fontawesome.com.cn/
+替换xadmin中的老版本，清理浏览器缓存才会生效
+```
+
+# DjangoUeditor富文本编辑器
+https://github.com/zhangfisher/DjangoUeditor
+https://github.com/liyaopinner/DjangoUeditor3_imooc

@@ -16,6 +16,9 @@ class CourseOrgAdmin(object):
     search_fields = ("name", "desc", "address", "image")
     list_filter = ("id", "click_nums", "fav_nums", "create_time", "update_time")
 
+    # 外键课搜索
+    relfield_style = 'fk-ajax'
+
 
 class TeacherAdmin(object):
     list_display = ("id", "name", "work_company", "work_position", "points")

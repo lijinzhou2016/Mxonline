@@ -31,7 +31,7 @@ SECRET_KEY = '_itvl5og!sc%0wt$bo!**o*hyu7@h8f&xn*8ty-qt!_i34_2px'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'captcha',
     'pure_pagination',
+    'DjangoUeditor'
 ]
 
 # 配置自定义的user表
@@ -162,7 +163,7 @@ USE_TZ = False
 2 相对路径配置："{% static 'css/test.css' %}"
 """
 # 调用时的路径
-STATIC_URL = '/mystatic/'
+STATIC_URL = '/static/'
 # 实际具体的路径
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
@@ -171,6 +172,9 @@ STATICFILES_DIRS = (
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+# 自己配置静态文件代理地址
+# STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 
 # 新浪邮件配置

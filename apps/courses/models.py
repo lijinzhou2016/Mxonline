@@ -3,14 +3,17 @@ from __future__ import unicode_literals
 
 from django.db import models
 from organization.models import CourseOrg, Teacher
+from DjangoUeditor.models import UEditorField
 
 
 class Course(models.Model):
     course_org = models.ForeignKey(CourseOrg, verbose_name="课程机构", null=True, blank=True)
     teacher = models.ForeignKey(Teacher, verbose_name="课程讲师", null=True, blank=True)
     name = models.CharField(max_length=100, verbose_name="课程名")
+    is_banner = models.BooleanField(verbose_name="是否轮播", default=False)
     desc = models.CharField(max_length=300, verbose_name="课程描述")
-    detail = models.TextField(verbose_name="课程详情")
+    detail = UEditorField(verbose_name="课程详情", width=600, height=300, toolbars="full", imagePath="courses/ueditor/",
+                          filePath="courses/ueditor/", null=True, blank=True)
     degree = models.CharField(choices=(("cj", "初级"), ("zj", "中级"), ("gj", "高级")), verbose_name="难度", max_length=2)
     learn_times = models.IntegerField(verbose_name="学习时长", default=0)
     students = models.IntegerField(verbose_name="学习人数", default=0)
@@ -34,6 +37,14 @@ class Course(models.Model):
     def get_zj_nums(self):
         """获取课程章节数"""
         return self.lesson_set.all().count()
+    # 显示在xadmin列表中的名称
+    get_zj_nums.short_description = "章节数"
+
+    def go_to(self):
+        from django.utils.safestring import mark_safe
+        return mark_safe("<a href='http://www.baidu.com'>跳转</a>")
+        # 显示在xadmin列表中的名称
+    go_to.short_description = "跳转"
 
     def get_course_lesson(self):
         """获取课程章节"""
@@ -41,6 +52,13 @@ class Course(models.Model):
 
     def get_learn_users(self):
         return self.usercourse_set.all()[:5]
+
+
+class BannerCourse(Course):
+    class Meta:
+        verbose_name = "轮播课程"
+        verbose_name_plural = verbose_name
+        proxy = True
 
 
 class Lesson(models.Model):

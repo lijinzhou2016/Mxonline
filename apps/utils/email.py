@@ -9,7 +9,10 @@ from MxOnline.settings import EMAIL_FROM
 
 def send_register_email(email, send_type="register"):
     email_record = EmailVerifyRecord()
-    code = random_code(16)
+    if send_type == 'update_email':
+        code = random_code(4)
+    else:
+        code = random_code(16)
     email_record.code = code
     email_record.send_type = send_type
     email_record.email = email
@@ -20,8 +23,12 @@ def send_register_email(email, send_type="register"):
         send_body = "请点击如下链接激活你的账号：http://127.0.0.1:8000/active/{}".format(code)
         send_mail(send_title, send_body, EMAIL_FROM, [email])
     elif send_type == "forget":
-        send_title = "慕雪在线c重置密码链接"
+        send_title = "慕雪在线重置密码链接"
         send_body = "请点击如下链接重置你的密码：http://127.0.0.1:8000/reset/{}".format(code)
+        send_mail(send_title, send_body, EMAIL_FROM, [email])
+    elif send_type == "update_email":
+        send_title = "慕雪在线邮箱修改验证码"
+        send_body = "你的邮箱验证码为: {}".format(code)
         send_mail(send_title, send_body, EMAIL_FROM, [email])
 
 
