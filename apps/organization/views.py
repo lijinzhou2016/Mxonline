@@ -91,11 +91,13 @@ class OrgHomeView(View):
         if request.user.is_authenticated():
             if UserFavorite.objects.filter(user=request.user, fav_id=int(org_id), fav_type=2):
                 has_fav = True
+        current_page = "home"
         return render(request, 'org-detail-homepage.html', {
             "course_org": course_org,
             "all_courses": all_courses,
             "all_teachers": all_teachers,
-            "has_fav": has_fav
+            "has_fav": has_fav,
+            "current_page": current_page
         })
 
 
