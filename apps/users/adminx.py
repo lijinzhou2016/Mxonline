@@ -24,6 +24,8 @@ class UserProfileAdmin(object):
     readonly_fields = ('password', )
     exclude = ('last_name', 'first_name')
 
+    style_fields = {'user_permissions': 'm2m_transfer'}
+
     model_icon = "fa fa-address-book-o"
 
 

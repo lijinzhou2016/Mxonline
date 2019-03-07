@@ -217,3 +217,25 @@ http://www.fontawesome.com.cn/
 # DjangoUeditor富文本编辑器
 https://github.com/zhangfisher/DjangoUeditor
 https://github.com/liyaopinner/DjangoUeditor3_imooc
+```python
+1. 在settings.py中
+INSTALLED_APPS = [
+    ...
+    'DjangoUeditor'
+]
+
+2. 在models.py
+detail = UEditorField()
+
+3. urls.py
+url(r'^ueditor/', include('DjangoUeditor.urls'))
+
+4. 在xadmin/plugs/下面新增ueditor.py
+在__init__.py中添加 ueditor
+
+5 在adminx.py中： style_fields = {"detail": "ueditor"}
+
+6 html页面中
+{% autoescape off %}  富文本数据  {% endautoescape %}
+
+```

@@ -167,6 +167,7 @@ STATIC_URL = '/static/'
 # 实际具体的路径
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "extra_apps", "DjangoUeditor", "static")
 )
 
 

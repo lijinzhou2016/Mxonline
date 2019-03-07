@@ -20,6 +20,12 @@ class CourseAdmin(object):
     search_fields = ("name", "desc", "detail", "image")
     list_filter = ("students", "fav_nums", "degree", "click_nums", "create_time", "update_time")
 
+    # 富文本字段
+    style_fields = {'detail': 'ueditor'}
+
+    # excel导入插件
+    import_excel = True
+
     # # 定时刷新
     # refresh_times = (3, 5)
 
@@ -42,6 +48,11 @@ class CourseAdmin(object):
         if obj.course_org:
             course_org = obj.course_org
             course_org.course_nums = Course.objects.filter()
+
+    def post(self, request, *args, **kwargs):
+        if 'excel' in request.FILES:
+            pass
+        return super(CourseAdmin, self).post(request, args, kwargs)
 
 
 class BannerCourseAdmin(object):

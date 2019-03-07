@@ -12,8 +12,8 @@ class Course(models.Model):
     name = models.CharField(max_length=100, verbose_name="课程名")
     is_banner = models.BooleanField(verbose_name="是否轮播", default=False)
     desc = models.CharField(max_length=300, verbose_name="课程描述")
-    detail = UEditorField(verbose_name="课程详情", width=600, height=300, toolbars="full", imagePath="courses/ueditor/",
-                          filePath="courses/ueditor/", null=True, blank=True)
+    detail = UEditorField(verbose_name="课程详情", width=600, height=300, imagePath="courses/ueditor/",
+                          filePath="courses/ueditor/", default="")
     degree = models.CharField(choices=(("cj", "初级"), ("zj", "中级"), ("gj", "高级")), verbose_name="难度", max_length=2)
     learn_times = models.IntegerField(verbose_name="学习时长", default=0)
     students = models.IntegerField(verbose_name="学习人数", default=0)
