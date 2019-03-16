@@ -88,7 +88,7 @@ class OrgHomeView(View):
         all_courses = course_org.course_set.all()[:3]
         all_teachers = course_org.teacher_set.all()[:1]
         has_fav = False
-        if request.user.is_authenticated():
+        if request.user.is_authenticated:
             if UserFavorite.objects.filter(user=request.user, fav_id=int(org_id), fav_type=2):
                 has_fav = True
         current_page = "home"
@@ -110,7 +110,7 @@ class OrgCourseView(View):
         course_org = CourseOrg.objects.get(id=int(org_id))
         all_courses = course_org.course_set.all()
         has_fav = False
-        if request.user.is_authenticated():
+        if request.user.is_authenticated:
             if UserFavorite.objects.filter(user=request.user, fav_id=int(org_id), fav_type=2):
                 has_fav = True
         return render(request, 'org-detail-course.html', {
@@ -129,7 +129,7 @@ class OrgDescView(View):
         current_page = "desc"
         course_org = CourseOrg.objects.get(id=int(org_id))
         has_fav = False
-        if request.user.is_authenticated():
+        if request.user.is_authenticated:
             if UserFavorite.objects.filter(user=request.user, fav_id=int(org_id), fav_type=2):
                 has_fav = True
         return render(request, 'org-detail-desc.html', {
@@ -148,7 +148,7 @@ class OrgTeacherView(View):
         course_org = CourseOrg.objects.get(id=int(org_id))
         all_teachers = course_org.teacher_set.all()
         has_fav = False
-        if request.user.is_authenticated():
+        if request.user.is_authenticated:
             if UserFavorite.objects.filter(user=request.user, fav_id=int(org_id), fav_type=2):
                 has_fav = True
         return render(request, 'org-detail-teachers.html', {
@@ -168,7 +168,7 @@ class AddFavView(View):
         fav_type = request.POST.get('fav_type', '')
 
         # 判断用户是否登录
-        if not request.user.is_authenticated():
+        if not request.user.is_authenticated:
             fail = {'status': 'fail', 'msg': '用户未登录'}
             return HttpResponse(json.dumps(fail), content_type="application/json")
 

@@ -7,8 +7,8 @@ from DjangoUeditor.models import UEditorField
 
 
 class Course(models.Model):
-    course_org = models.ForeignKey(CourseOrg, verbose_name="课程机构", null=True, blank=True)
-    teacher = models.ForeignKey(Teacher, verbose_name="课程讲师", null=True, blank=True)
+    course_org = models.ForeignKey(CourseOrg, on_delete=models.CASCADE, verbose_name="课程机构", null=True, blank=True)
+    teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE, verbose_name="课程讲师", null=True, blank=True)
     name = models.CharField(max_length=100, verbose_name="课程名")
     is_banner = models.BooleanField(verbose_name="是否轮播", default=False)
     desc = models.CharField(max_length=300, verbose_name="课程描述")
@@ -62,7 +62,7 @@ class BannerCourse(Course):
 
 
 class Lesson(models.Model):
-    course = models.ForeignKey(Course, verbose_name="所属课程")
+    course = models.ForeignKey(Course, on_delete=models.CASCADE, verbose_name="所属课程")
     name = models.CharField(max_length=100, verbose_name="章节名")
     create_time = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
     update_time = models.DateTimeField(auto_now=True, verbose_name="更新时间")
@@ -79,7 +79,7 @@ class Lesson(models.Model):
 
 
 class Video(models.Model):
-    lesson = models.ForeignKey(Lesson, verbose_name="所属章节")
+    lesson = models.ForeignKey(Lesson, on_delete=models.CASCADE, verbose_name="所属章节")
     name = models.CharField(max_length=100, verbose_name="视频名")
     url = models.CharField(max_length=200, null=True, blank=True, verbose_name="视频地址")
     video_times = models.IntegerField(verbose_name="视频时长", default=0)
@@ -95,7 +95,7 @@ class Video(models.Model):
 
 
 class CourseResource(models.Model):
-    course = models.ForeignKey(Course, verbose_name="所属课程")
+    course = models.ForeignKey(Course, on_delete=models.CASCADE, verbose_name="所属课程")
     name = models.CharField(max_length=100, verbose_name="资源名")
     download = models.FileField(upload_to="course/resource/%Y/%m", verbose_name="课程资源")
     create_time = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")

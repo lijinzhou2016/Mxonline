@@ -73,13 +73,13 @@ urlpatterns = [
 
 
     # 课程机构app相关url
-    url(r'^org/', include('organization.urls', namespace="org")),
+    url(r'^org/', include(('organization.urls', 'organization'), namespace="org")),
 
     # 课程app相关url
-    url(r'^course/', include('courses.urls', namespace="course")),
+    url(r'^course/', include(('courses.urls', 'courses'), namespace="course")),
 
     # user相关url
-    url(r'^users/', include('users.urls', namespace="users")),
+    url(r'^users/', include(('users.urls', 'users'), namespace="users")),
 ]
 
 # 全局404

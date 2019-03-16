@@ -66,13 +66,12 @@ AUTHENTICATION_BACKENDS = (
 # session过期时间配置
 SESSION_COOKIE_AGE = 2*7*24*60*60
 
-MIDDLEWARE_CLASSES = [
+MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
@@ -91,7 +90,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'django.core.context_processors.media'   # media处理类, 注册MEDIA_URL
+                'django.template.context_processors.media'   # media处理类, 注册MEDIA_URL
             ],
         },
     },
@@ -144,7 +143,7 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'zh-hans'
 
 # 时区：上海
-TIME_ZONE = 'Asia/shanghai'
+# TIME_ZONE = 'Asia/shanghai'
 
 USE_I18N = True
 

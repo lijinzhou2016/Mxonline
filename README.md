@@ -20,10 +20,10 @@
 * 机构管理模块:
 课程机构管理 / 讲轮播图管理
 
-# branch mx27
+# branch master
 ```
-python 2.7
-django 1.9.8
+python 3.6
+django 2.0
 mysql 5.7
 ```
 

@@ -9,7 +9,7 @@ from django.db.models import Q
 from django.views.generic.base import View
 from django.contrib.auth.hashers import make_password
 from pure_pagination import Paginator, PageNotAnInteger
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 
 from courses.models import Course
 from operation.models import UserCourse, UserFavorite, UserMessage

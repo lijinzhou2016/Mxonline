@@ -11,7 +11,7 @@
  Target Server Version : 50719
  File Encoding         : utf-8
 
- Date: 03/16/2019 17:28:53 PM
+ Date: 03/16/2019 19:05:09 PM
 */
 
 SET NAMES utf8mb4;
@@ -90,13 +90,13 @@ CREATE TABLE `captcha_captchastore` (
   `expiration` datetime(6) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `hashkey` (`hashkey`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Records of `captcha_captchastore`
 -- ----------------------------
 BEGIN;
-INSERT INTO `captcha_captchastore` VALUES ('6', 'PFYC', 'pfyc', '8a9a1ca48f0a1cb8b4be14dcdc273176a7e07070', '2019-02-18 02:02:53.592202'), ('8', 'VTNJ', 'vtnj', '1b60325609e4f8ca2f4b9e010112533017267299', '2019-02-27 22:56:23.487263'), ('9', 'CAOA', 'caoa', 'ec1d8704d8d65c7cd9ecf674af2a2f184803a35b', '2019-03-16 15:23:31.965168'), ('10', 'ZFAT', 'zfat', 'c6f39e3596e5d8cc4c5a22028e070b12e6a3a936', '2019-03-16 15:27:58.890838'), ('11', 'YRCR', 'yrcr', '6638190734aafe8d21a7f046a239d13be78f5a2a', '2019-03-16 15:28:04.917218');
+INSERT INTO `captcha_captchastore` VALUES ('9', 'CAOA', 'caoa', 'ec1d8704d8d65c7cd9ecf674af2a2f184803a35b', '2019-03-16 15:23:31.965168'), ('10', 'ZFAT', 'zfat', 'c6f39e3596e5d8cc4c5a22028e070b12e6a3a936', '2019-03-16 15:27:58.890838'), ('11', 'YRCR', 'yrcr', '6638190734aafe8d21a7f046a239d13be78f5a2a', '2019-03-16 15:28:04.917218'), ('12', 'VWZO', 'vwzo', '3dc5060a8803182f1508e152b5e41f59ee72b7e1', '2019-03-16 06:03:30.095074');
 COMMIT;
 
 -- ----------------------------
@@ -134,7 +134,7 @@ CREATE TABLE `courses_course` (
 --  Records of `courses_course`
 -- ----------------------------
 BEGIN;
-INSERT INTO `courses_course` VALUES ('1', 'Python入门', 'Python入门', 'Python入门Python入门Python入门', 'cj', '0', '7', '1', 'courses/2019/02/540e57300001d6d906000338-240-135_MSIqfvw.jpg', '31', '2019-02-05 10:22:30.414927', '2019-03-16 16:57:18.916756', '1', '后端开发', 'python', '1', '可以使用python简单编程', '了解计算机', '1'), ('2', 'MySQL入门', '简单的MySQL入门', '简单的MySQL入门简单的MySQL入门简单的MySQL入门', 'cj', '0', '2', '0', 'courses/2019/02/mysql.jpg', '5', '2019-02-09 19:57:33.965351', '2019-03-16 16:54:22.332635', '1', '后端开发', '', null, null, null, '1'), ('3', 'JAVA入门第一季', '简单的java入门', '简单的java入门简单的java入门简单的java入门', 'cj', '0', '0', '0', 'courses/2019/02/57035ff200014b8a06000338-240-135_0nFiBSI.jpg', '1', '2019-02-09 19:58:48.713494', '2019-02-27 23:06:36.418624', '4', '后端开发', '', null, null, null, '0'), ('4', 'Python错误与异常', 'Python错误与异常', 'Python错误与异常Python错误与异常Python错误与异常', 'zj', '0', '0', '0', 'courses/2019/02/python错误和异常.jpg', '2', '2019-02-09 20:00:13.836790', '2019-03-16 16:43:02.826224', '8', '后端开发', '', null, null, null, '0'), ('5', 'Python面向对象', 'Python面向对象', 'Python面向对象Python面向对象Python面向对象', 'zj', '0', '1', '1', 'courses/2019/02/python面向对象.jpg', '23', '2019-02-09 20:01:01.984127', '2019-03-16 16:42:39.560972', '8', '后端开发', 'python', null, null, null, '0'), ('6', 'Python文件处理', 'Python文件处理', '<p>&nbsp; &nbsp; Python文件处理Python文件处理Python文件处理</p>', 'gj', '0', '1', '0', 'courses/2019/02/python文件处理.jpg', '21', '2019-02-09 20:02:01.450688', '2019-03-16 16:55:44.817462', '3', '后端开发', 'python', null, '', '', '0'), ('7', 'vue入门', 'vue简单入门', '<ul style=\"list-style-type: none;\" class=\" list-paddingleft-2\"><li><p class=\"small-title\" style=\"margin-top: 0px; margin-bottom: 7px; padding: 0px; font-size: 18px; color: rgb(13, 194, 128); line-height: 24px;\">Vue起步</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 24px;\"><span style=\"color: rgb(0, 0, 0);\"><strong>学习方法介绍</strong></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 24px;\"><span style=\"color: rgb(0, 0, 0);\"><strong>使用Vue编写Hello World</strong></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 24px;\"><span style=\"color: rgb(0, 0, 0);\"><strong>使用Vue开发TodoList</strong></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 24px;\"><span style=\"color: rgb(0, 0, 0);\"><strong>MVVM设计模式</strong></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 24px;\"><span style=\"color: rgb(0, 0, 0);\"><strong>前端组件化</strong></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 24px;\"><span style=\"color: rgb(0, 0, 0);\"><strong>组件化思维修改TodoList</strong></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 24px;\"><span style=\"color: rgb(0, 0, 0);\"><strong>简单的父子组件传值</strong></span></p></li></ul>', 'cj', '0', '1', '1', 'courses/2019/03/5ac3142b000166ec09360316.jpg', '8', '2019-03-16 16:42:14.729155', '2019-03-16 17:10:44.282484', '4', '后端开发', 'vue', '3', '', '', '1');
+INSERT INTO `courses_course` VALUES ('1', 'Python入门', 'Python入门', 'Python入门Python入门Python入门', 'cj', '0', '8', '1', 'courses/2019/02/540e57300001d6d906000338-240-135_MSIqfvw.jpg', '32', '2019-02-05 10:22:30.414927', '2019-03-16 05:58:24.521998', '1', '后端开发', 'python', '1', '可以使用python简单编程', '了解计算机', '1'), ('2', 'MySQL入门', '简单的MySQL入门', '简单的MySQL入门简单的MySQL入门简单的MySQL入门', 'cj', '0', '2', '0', 'courses/2019/02/mysql.jpg', '5', '2019-02-09 19:57:33.965351', '2019-03-16 16:54:22.332635', '1', '后端开发', '', null, null, null, '1'), ('3', 'JAVA入门第一季', '简单的java入门', '简单的java入门简单的java入门简单的java入门', 'cj', '0', '0', '0', 'courses/2019/02/57035ff200014b8a06000338-240-135_0nFiBSI.jpg', '1', '2019-02-09 19:58:48.713494', '2019-02-27 23:06:36.418624', '4', '后端开发', '', null, null, null, '0'), ('4', 'Python错误与异常', 'Python错误与异常', 'Python错误与异常Python错误与异常Python错误与异常', 'zj', '0', '0', '0', 'courses/2019/02/python错误和异常.jpg', '2', '2019-02-09 20:00:13.836790', '2019-03-16 16:43:02.826224', '8', '后端开发', '', null, null, null, '0'), ('5', 'Python面向对象', 'Python面向对象', 'Python面向对象Python面向对象Python面向对象', 'zj', '0', '3', '1', 'courses/2019/02/python面向对象.jpg', '24', '2019-02-09 20:01:01.984127', '2019-03-16 05:56:10.147760', '8', '后端开发', 'python', null, null, null, '0'), ('6', 'Python文件处理', 'Python文件处理', '<p>&nbsp; &nbsp; Python文件处理Python文件处理Python文件处理</p>', 'gj', '0', '1', '0', 'courses/2019/02/python文件处理.jpg', '21', '2019-02-09 20:02:01.450688', '2019-03-16 16:55:44.817462', '3', '后端开发', 'python', null, '', '', '0'), ('7', 'vue入门', 'vue简单入门', '<ul style=\"list-style-type: none;\" class=\" list-paddingleft-2\"><li><p class=\"small-title\" style=\"margin-top: 0px; margin-bottom: 7px; padding: 0px; font-size: 18px; color: rgb(13, 194, 128); line-height: 24px;\">Vue起步</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 24px;\"><span style=\"color: rgb(0, 0, 0);\"><strong>学习方法介绍</strong></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 24px;\"><span style=\"color: rgb(0, 0, 0);\"><strong>使用Vue编写Hello World</strong></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 24px;\"><span style=\"color: rgb(0, 0, 0);\"><strong>使用Vue开发TodoList</strong></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 24px;\"><span style=\"color: rgb(0, 0, 0);\"><strong>MVVM设计模式</strong></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 24px;\"><span style=\"color: rgb(0, 0, 0);\"><strong>前端组件化</strong></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 24px;\"><span style=\"color: rgb(0, 0, 0);\"><strong>组件化思维修改TodoList</strong></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 24px;\"><span style=\"color: rgb(0, 0, 0);\"><strong>简单的父子组件传值</strong></span></p></li></ul>', 'cj', '0', '1', '2', 'courses/2019/03/5ac3142b000166ec09360316.jpg', '11', '2019-03-16 16:42:14.729155', '2019-03-16 06:01:59.669641', '4', '后端开发', 'vue', '3', '', '', '1');
 COMMIT;
 
 -- ----------------------------
@@ -255,14 +255,7 @@ CREATE TABLE `django_migrations` (
   `name` varchar(255) NOT NULL,
   `applied` datetime(6) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=64 DEFAULT CHARSET=utf8;
-
--- ----------------------------
---  Records of `django_migrations`
--- ----------------------------
-BEGIN;
-INSERT INTO `django_migrations` VALUES ('21', 'contenttypes', '0001_initial', '2019-01-10 00:32:24.816349'), ('22', 'contenttypes', '0002_remove_content_type_name', '2019-01-10 00:32:24.820785'), ('23', 'auth', '0001_initial', '2019-01-10 00:32:24.823353'), ('24', 'auth', '0002_alter_permission_name_max_length', '2019-01-10 00:32:24.827275'), ('25', 'auth', '0003_alter_user_email_max_length', '2019-01-10 00:32:24.830073'), ('26', 'auth', '0004_alter_user_username_opts', '2019-01-10 00:32:24.832565'), ('27', 'auth', '0005_alter_user_last_login_null', '2019-01-10 00:32:24.835077'), ('28', 'auth', '0006_require_contenttypes_0002', '2019-01-10 00:32:24.837746'), ('29', 'auth', '0007_alter_validators_add_error_messages', '2019-01-10 00:32:24.840323'), ('30', 'users', '0001_initial', '2019-01-10 00:32:24.843690'), ('31', 'admin', '0001_initial', '2019-01-10 00:32:24.845961'), ('32', 'admin', '0002_logentry_remove_auto_add', '2019-01-10 00:32:24.848544'), ('33', 'courses', '0001_initial', '2019-01-10 00:32:24.851059'), ('34', 'operation', '0001_initial', '2019-01-10 00:32:24.853534'), ('35', 'organization', '0001_initial', '2019-01-10 00:32:24.856178'), ('36', 'sessions', '0001_initial', '2019-01-10 00:32:24.858836'), ('37', 'users', '0002_auto_20190109_1500', '2019-01-10 00:32:24.861454'), ('41', 'xadmin', '0001_initial', '2019-01-10 00:37:20.136628'), ('42', 'captcha', '0001_initial', '2019-01-11 23:05:25.182856'), ('43', 'users', '0003_auto_20190110_0909', '2019-01-11 23:05:25.261208'), ('44', 'organization', '0002_courseorg_category', '2019-01-31 21:02:07.700211'), ('45', 'organization', '0003_auto_20190204_1416', '2019-02-04 14:16:29.485912'), ('46', 'courses', '0002_course_course_org', '2019-02-05 09:47:48.037220'), ('47', 'organization', '0004_teacher_image', '2019-02-05 10:54:08.368127'), ('48', 'organization', '0005_auto_20190205_1055', '2019-02-05 10:55:37.763741'), ('49', 'courses', '0003_course_category', '2019-02-09 22:05:02.062155'), ('50', 'courses', '0004_course_tag', '2019-02-09 22:40:39.654701'), ('51', 'courses', '0005_video_url', '2019-02-12 21:49:23.239822'), ('52', 'courses', '0006_auto_20190212_2152', '2019-02-12 21:52:43.319701'), ('53', 'courses', '0007_video_video_times', '2019-02-12 22:10:27.519784'), ('54', 'courses', '0008_course_teacher', '2019-02-12 22:27:04.731563'), ('55', 'courses', '0009_auto_20190212_2236', '2019-02-12 22:36:46.428411'), ('56', 'organization', '0006_teacher_age', '2019-02-16 17:08:07.949429'), ('57', 'users', '0004_auto_20190217_0017', '2019-02-17 00:17:21.250405'), ('58', 'users', '0005_auto_20190217_1826', '2019-02-17 18:26:55.300697'), ('59', 'users', '0006_auto_20190217_1844', '2019-02-17 18:44:29.216757'), ('60', 'courses', '0010_course_is_banner', '2019-02-18 23:01:47.344744'), ('61', 'organization', '0007_courseorg_tag', '2019-02-18 23:31:09.607358'), ('62', 'courses', '0011_auto_20190224_2223', '2019-02-24 22:23:40.686741'), ('63', 'courses', '0012_auto_20190302_2145', '2019-03-02 21:45:37.581706');
-COMMIT;
+) ENGINE=InnoDB AUTO_INCREMENT=68 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Table structure for `django_session`
@@ -280,7 +273,7 @@ CREATE TABLE `django_session` (
 --  Records of `django_session`
 -- ----------------------------
 BEGIN;
-INSERT INTO `django_session` VALUES ('0bv00qwggy61k94f0gymzyi0rh03cbqg', 'NTg5MGNjMDNlZjgxMzg4OTIwZWZmZmMwZWY2ZTlkMmU3MDBjZmY4Nzp7Il9hdXRoX3VzZXJfaWQiOiIxMSIsIkxJU1RfUVVFUlkiOltbImNvdXJzZXMiLCJiYW5uZXJjb3Vyc2UiXSwiIl0sIl9hdXRoX3VzZXJfaGFzaCI6IjFiZTNlZmI3N2Y5MTMxMjRhNzhhMmQ4NzNlOWZlMzY5YzJjNTc5NTkiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJ1c2Vycy52aWV3cy5DdXN0b21CYWNrZW5kIn0=', '2019-03-30 16:55:45.062502'), ('7x51o6eoav3io80wu1zyyf82uelkpdss', 'MWM5NGI2MzYxMzE3M2IyNzhhYzMyNzg4MjU2OGM2YTQyYzNhY2M0Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjRjNjU0NjU4NWQxMTZkNWNlNjE0MjlmMmY3MTA1YzQ4ZDFkOWJmOWMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJ1c2Vycy52aWV3cy5DdXN0b21CYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjMifQ==', '2019-01-25 23:26:57.150810'), ('ciloe662masu1etvizsxfa1ej47hxew1', 'NzllZDA0YjYyOGUyYTViYmJhNGU0MjAzZDEyOWMyYWZiYTFhOWI1ODp7Il9hdXRoX3VzZXJfaGFzaCI6IjAzY2MyNGIxNGY0MDE5MWQ2NmMwMzAwOGZiYzJhMDgzZGJjMTk1MWMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJ1c2Vycy52aWV3cy5DdXN0b21CYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjIifQ==', '2019-01-10 23:48:31.569071'), ('la6k54apqgit9ey53nawa1so9o1ka3uy', 'ODE3YmQ3NDVjZTI0NDdmYjQ5YTFiMmRjMDg2NTNjZWM4ZDM1NTAyOTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6InVzZXJzLnZpZXdzLkN1c3RvbUJhY2tlbmQiLCJMSVNUX1FVRVJZIjpbWyJvcmdhbml6YXRpb24iLCJjb3Vyc2VvcmciXSwiIl0sIl9hdXRoX3VzZXJfaGFzaCI6IjAzY2MyNGIxNGY0MDE5MWQ2NmMwMzAwOGZiYzJhMDgzZGJjMTk1MWMiLCJfYXV0aF91c2VyX2lkIjoiMiJ9', '2019-02-17 22:47:13.473658'), ('rzcq5vxp1aruqf6b8saglcjkajyuzmf2', 'NjkyNzMzZTdlZTQwNDU0ZjI1NjkzZTgwY2NmYWRkNTg1ZTdiNGNjMzp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiTElTVF9RVUVSWSI6W1siYXV0aCIsInBlcm1pc3Npb24iXSwiIl0sIl9hdXRoX3VzZXJfaGFzaCI6IjAzY2MyNGIxNGY0MDE5MWQ2NmMwMzAwOGZiYzJhMDgzZGJjMTk1MWMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJ1c2Vycy52aWV3cy5DdXN0b21CYWNrZW5kIn0=', '2019-02-17 14:45:01.463981');
+INSERT INTO `django_session` VALUES ('78irwkpggla0mgi02a8twylowlho1mcr', 'MThjZTM2MGZhNTJhY2RiMTdhZjRhMjAwMTQ2YWRjNWZhNDY2NzllMjp7Il9hdXRoX3VzZXJfaWQiOiIxMiIsIl9hdXRoX3VzZXJfYmFja2VuZCI6InVzZXJzLnZpZXdzLkN1c3RvbUJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzN2YwOWNlMTI2MTRhMzExYzdjODAwY2Q5MWYxNTE2N2EyMjUyZDdkIn0=', '2019-03-30 06:00:22.080196'), ('7x51o6eoav3io80wu1zyyf82uelkpdss', 'MWM5NGI2MzYxMzE3M2IyNzhhYzMyNzg4MjU2OGM2YTQyYzNhY2M0Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjRjNjU0NjU4NWQxMTZkNWNlNjE0MjlmMmY3MTA1YzQ4ZDFkOWJmOWMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJ1c2Vycy52aWV3cy5DdXN0b21CYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjMifQ==', '2019-01-25 23:26:57.150810'), ('ciloe662masu1etvizsxfa1ej47hxew1', 'NzllZDA0YjYyOGUyYTViYmJhNGU0MjAzZDEyOWMyYWZiYTFhOWI1ODp7Il9hdXRoX3VzZXJfaGFzaCI6IjAzY2MyNGIxNGY0MDE5MWQ2NmMwMzAwOGZiYzJhMDgzZGJjMTk1MWMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJ1c2Vycy52aWV3cy5DdXN0b21CYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjIifQ==', '2019-01-10 23:48:31.569071'), ('la6k54apqgit9ey53nawa1so9o1ka3uy', 'ODE3YmQ3NDVjZTI0NDdmYjQ5YTFiMmRjMDg2NTNjZWM4ZDM1NTAyOTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6InVzZXJzLnZpZXdzLkN1c3RvbUJhY2tlbmQiLCJMSVNUX1FVRVJZIjpbWyJvcmdhbml6YXRpb24iLCJjb3Vyc2VvcmciXSwiIl0sIl9hdXRoX3VzZXJfaGFzaCI6IjAzY2MyNGIxNGY0MDE5MWQ2NmMwMzAwOGZiYzJhMDgzZGJjMTk1MWMiLCJfYXV0aF91c2VyX2lkIjoiMiJ9', '2019-02-17 22:47:13.473658'), ('rzcq5vxp1aruqf6b8saglcjkajyuzmf2', 'NjkyNzMzZTdlZTQwNDU0ZjI1NjkzZTgwY2NmYWRkNTg1ZTdiNGNjMzp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiTElTVF9RVUVSWSI6W1siYXV0aCIsInBlcm1pc3Npb24iXSwiIl0sIl9hdXRoX3VzZXJfaGFzaCI6IjAzY2MyNGIxNGY0MDE5MWQ2NmMwMzAwOGZiYzJhMDgzZGJjMTk1MWMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJ1c2Vycy52aWV3cy5DdXN0b21CYWNrZW5kIn0=', '2019-02-17 14:45:01.463981');
 COMMIT;
 
 -- ----------------------------
@@ -331,13 +324,13 @@ CREATE TABLE `operation_usercourse` (
   KEY `operation_usercourse_user_id_835fe81a_fk_users_userprofile_id` (`user_id`),
   CONSTRAINT `operation_usercourse_course_id_9f1eab2e_fk_courses_course_id` FOREIGN KEY (`course_id`) REFERENCES `courses_course` (`id`),
   CONSTRAINT `operation_usercourse_user_id_835fe81a_fk_users_userprofile_id` FOREIGN KEY (`user_id`) REFERENCES `users_userprofile` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Records of `operation_usercourse`
 -- ----------------------------
 BEGIN;
-INSERT INTO `operation_usercourse` VALUES ('6', '', '2019-03-16 16:50:55.566896', '2019-03-16 16:50:55.566980', '7', '11');
+INSERT INTO `operation_usercourse` VALUES ('6', '', '2019-03-16 16:50:55.566896', '2019-03-16 16:50:55.566980', '7', '11'), ('7', '', '2019-03-16 05:56:07.957521', '2019-03-16 05:56:07.957552', '5', '11'), ('8', '', '2019-03-16 05:58:24.528277', '2019-03-16 05:58:24.528307', '1', '11');
 COMMIT;
 
 -- ----------------------------
@@ -354,13 +347,13 @@ CREATE TABLE `operation_userfavorite` (
   PRIMARY KEY (`id`),
   KEY `operation_userfavorite_user_id_ad46a6af_fk_users_userprofile_id` (`user_id`),
   CONSTRAINT `operation_userfavorite_user_id_ad46a6af_fk_users_userprofile_id` FOREIGN KEY (`user_id`) REFERENCES `users_userprofile` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Records of `operation_userfavorite`
 -- ----------------------------
 BEGIN;
-INSERT INTO `operation_userfavorite` VALUES ('20', '5', '1', '2019-03-16 16:37:11.850156', '2019-03-16 16:37:11.850186', '11'), ('21', '7', '1', '2019-03-16 16:50:39.984196', '2019-03-16 16:50:39.984250', '11');
+INSERT INTO `operation_userfavorite` VALUES ('20', '5', '1', '2019-03-16 16:37:11.850156', '2019-03-16 16:37:11.850186', '11'), ('21', '7', '1', '2019-03-16 16:50:39.984196', '2019-03-16 16:50:39.984250', '11'), ('22', '7', '1', '2019-03-16 06:01:59.673998', '2019-03-16 06:01:59.674034', '12'), ('23', '4', '2', '2019-03-16 06:02:01.314032', '2019-03-16 06:02:01.314060', '12'), ('24', '6', '2', '2019-03-16 06:02:38.586658', '2019-03-16 06:02:38.586695', '12'), ('25', '1', '3', '2019-03-16 06:02:57.648863', '2019-03-16 06:02:57.648913', '12');
 COMMIT;
 
 -- ----------------------------
@@ -375,7 +368,14 @@ CREATE TABLE `operation_usermessage` (
   `create_time` datetime(6) NOT NULL,
   `update_time` datetime(6) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+--  Records of `operation_usermessage`
+-- ----------------------------
+BEGIN;
+INSERT INTO `operation_usermessage` VALUES ('4', '12', '欢迎 414820128@qq.com 注册暮雪在线网', '1', '2019-03-16 05:59:00.505528', '2019-03-16 06:01:33.617101');
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `organization_citydict`
@@ -425,7 +425,7 @@ CREATE TABLE `organization_courseorg` (
 --  Records of `organization_courseorg`
 -- ----------------------------
 BEGIN;
-INSERT INTO `organization_courseorg` VALUES ('1', '慕课网', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。', '49', '1', 'org/2019/01/imooc_Gn1sRjp.png', '北京市海淀区西三环北路甲2号院中关村', '2019-01-31 19:56:37.382242', '2019-03-16 15:23:37.477497', '1', 'pxjg', '0', '0', '知名机构'), ('2', '北京大学', '北京大学（Peking University），简称“北大”，由中华人民共和国教育部直属，中央直管副部级建制，位列“211工程”、“985工程”、“世界一流大学和一流学科”，入选“基础学科拔尖学生培养试验计划”、“高等学校创新能力提升计划”、“高等学校学科创新引智计划”，为九校联盟、中国大学校长联谊会、京港大学联盟、亚洲大学联盟、东亚研究型大学协会、国际研究型大学联盟、环太平洋大学联盟、东亚四大学', '2', '0', 'org/2019/01/bjdx.jpg', '北京市海淀区颐和园路5号', '2019-01-31 20:21:51.947299', '2019-02-28 00:10:39.838618', '1', 'gx', '0', '0', ' 知名高校'), ('3', '清华大学', '清华大学（Tsinghua University），简称“清华”，由中华人民共和国教育部直属，中央直管副部级建制，位列“211工程”、“985工程”、“世界一流大学和一流学科”，入选“基础学科拔尖学生培养试验计划”、“高等学校创新能力提升计划”、“高等学校学科创新引智计划”，为九校联盟、中国大学校长联谊会、东亚研究型大学协会、亚洲大学联盟、环太平洋大学联盟、清华—剑桥—MIT低碳大学联盟成员，被誉', '0', '0', 'org/2019/01/qhdx-logo.png', '北京市海淀区清华园1号', '2019-01-31 20:24:12.710093', '2019-01-31 20:24:12.710138', '1', 'gx', '0', '0', ' 知名高校'), ('4', '南京大学', '南京大学（Nanjing University），简称“南大”，是中华人民共和国教育部直属、中央直管副部级建制的综合性全国重点大学，是历史悠久、声誉卓著的百年名校。位列首批国家“双一流“世界一流大学A类建设高校、”211工程“、”985工程”，入选“珠峰计划”、“111计划”、“2011计划”、“卓越工程师教育培养计划”、“卓越医生教育培养计划”、“卓越法律人才教育培养计划”，是九校联盟、中国大学', '0', '0', 'org/2019/01/njdx.jpg', '江苏省南京市鼓楼区汉口路22号', '2019-01-31 20:25:45.204591', '2019-01-31 20:26:28.682900', '6', 'gx', '0', '0', ' 知名高校'), ('5', '极客学院', '极客学院 [1]  是中国android开发在线学习平台，汇集了几十名国内顶尖的有多年项目和实战经验的Android开发授课大师，精心制作了上千个高质量视频教程，涵盖了Android开发学习的基础入门、中级进阶，高级提升、项目实战开发等专业的android开发课程。', '0', '0', 'org/2019/01/logo.png', '深圳珠海', '2019-01-31 20:36:02.160710', '2019-01-31 20:37:23.263784', '3', 'pxjg', '0', '0', null), ('6', '麦子学院', '麦子学院，国内第一家在美国建立商务中心的IT在线教育机构，目前已与美国知名教育公司取得合作，未来将源源不断向国内输出大量高质量教育资源', '2', '0', 'org/2019/01/麦子.jpg', '天津', '2019-01-31 20:38:03.097194', '2019-02-27 22:52:06.773731', '5', 'pxjg', '0', '0', null), ('7', '51CTO学院', '51CTO学院（又名51学院）是2013年由51CTO重磅推出的IT在线教育平台。51CTO学院汇集各类IT精品视频课程，致力于打造顶尖IT培训讲师、网络技术精品培训课程、培训自测题三位一体的网络教育特色，是国内最完善、最专业的IT在线教育平台。', '0', '0', 'org/2019/01/51.jpg', '广州某街道', '2019-01-31 20:46:33.029861', '2019-01-31 20:47:41.342580', '4', 'gr', '0', '0', null), ('8', '阿里学院', '阿里学院是阿里巴巴公司于2004年9月10日在其五周年庆典之际，宣布创办成立企业学院，这是中国互联网第一家企业学院。', '0', '1', 'org/2019/01/阿里.jpg', '杭州某地', '2019-01-31 20:48:41.364621', '2019-03-16 15:17:21.600793', '7', 'pxjg', '0', '0', null), ('9', 'mooc学院', 'MOOC学院是果壳网旗下的一个讨论MOOC（大型开放式网络课程）课程的学习社区。MOOC学院收录了主流的三大课程提供商Coursera、Udacity、edX的所有课程，并将大部分课程的课程简介翻译成中文。用户可以在MOOC学院给上过的MOOC课程点评打分，在学习的过程中和同学讨论课程问题，记录自己的上课笔记。', '0', '0', 'org/2019/01/mooc.jpg', '深圳某地', '2019-01-31 20:51:36.121475', '2019-01-31 20:51:36.121523', '3', 'gr', '0', '0', null), ('10', 'CSDN学院', 'CSDN学院是CSDN最新推出的一个面向软件开发者的IT技术职业培训平台，旨在提供优质的IT课程，创造更为方便、快捷的学习方式。自2015年1月发布至今，CSDN学院已拥有了500000+学习用户，签约了400+IT资深讲师，上线了500+优质实战课程。', '0', '0', 'org/2019/01/csdn.jpg', '南京江宁莱茵达路', '2019-01-31 20:53:23.424124', '2019-01-31 20:53:23.424149', '6', 'pxjg', '0', '0', null);
+INSERT INTO `organization_courseorg` VALUES ('1', '慕课网', '慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。', '50', '1', 'org/2019/01/imooc_Gn1sRjp.png', '北京市海淀区西三环北路甲2号院中关村', '2019-01-31 19:56:37.382242', '2019-03-16 05:58:20.077645', '1', 'pxjg', '0', '0', '知名机构'), ('2', '北京大学', '北京大学（Peking University），简称“北大”，由中华人民共和国教育部直属，中央直管副部级建制，位列“211工程”、“985工程”、“世界一流大学和一流学科”，入选“基础学科拔尖学生培养试验计划”、“高等学校创新能力提升计划”、“高等学校学科创新引智计划”，为九校联盟、中国大学校长联谊会、京港大学联盟、亚洲大学联盟、东亚研究型大学协会、国际研究型大学联盟、环太平洋大学联盟、东亚四大学', '2', '0', 'org/2019/01/bjdx.jpg', '北京市海淀区颐和园路5号', '2019-01-31 20:21:51.947299', '2019-02-28 00:10:39.838618', '1', 'gx', '0', '0', ' 知名高校'), ('3', '清华大学', '清华大学（Tsinghua University），简称“清华”，由中华人民共和国教育部直属，中央直管副部级建制，位列“211工程”、“985工程”、“世界一流大学和一流学科”，入选“基础学科拔尖学生培养试验计划”、“高等学校创新能力提升计划”、“高等学校学科创新引智计划”，为九校联盟、中国大学校长联谊会、东亚研究型大学协会、亚洲大学联盟、环太平洋大学联盟、清华—剑桥—MIT低碳大学联盟成员，被誉', '0', '0', 'org/2019/01/qhdx-logo.png', '北京市海淀区清华园1号', '2019-01-31 20:24:12.710093', '2019-01-31 20:24:12.710138', '1', 'gx', '0', '0', ' 知名高校'), ('4', '南京大学', '南京大学（Nanjing University），简称“南大”，是中华人民共和国教育部直属、中央直管副部级建制的综合性全国重点大学，是历史悠久、声誉卓著的百年名校。位列首批国家“双一流“世界一流大学A类建设高校、”211工程“、”985工程”，入选“珠峰计划”、“111计划”、“2011计划”、“卓越工程师教育培养计划”、“卓越医生教育培养计划”、“卓越法律人才教育培养计划”，是九校联盟、中国大学', '0', '1', 'org/2019/01/njdx.jpg', '江苏省南京市鼓楼区汉口路22号', '2019-01-31 20:25:45.204591', '2019-03-16 06:02:01.310308', '6', 'gx', '0', '0', ' 知名高校'), ('5', '极客学院', '极客学院 [1]  是中国android开发在线学习平台，汇集了几十名国内顶尖的有多年项目和实战经验的Android开发授课大师，精心制作了上千个高质量视频教程，涵盖了Android开发学习的基础入门、中级进阶，高级提升、项目实战开发等专业的android开发课程。', '0', '0', 'org/2019/01/logo.png', '深圳珠海', '2019-01-31 20:36:02.160710', '2019-01-31 20:37:23.263784', '3', 'pxjg', '0', '0', null), ('6', '麦子学院', '麦子学院，国内第一家在美国建立商务中心的IT在线教育机构，目前已与美国知名教育公司取得合作，未来将源源不断向国内输出大量高质量教育资源', '4', '1', 'org/2019/01/麦子.jpg', '天津', '2019-01-31 20:38:03.097194', '2019-03-16 06:02:38.583140', '5', 'pxjg', '0', '0', null), ('7', '51CTO学院', '51CTO学院（又名51学院）是2013年由51CTO重磅推出的IT在线教育平台。51CTO学院汇集各类IT精品视频课程，致力于打造顶尖IT培训讲师、网络技术精品培训课程、培训自测题三位一体的网络教育特色，是国内最完善、最专业的IT在线教育平台。', '0', '0', 'org/2019/01/51.jpg', '广州某街道', '2019-01-31 20:46:33.029861', '2019-01-31 20:47:41.342580', '4', 'gr', '0', '0', null), ('8', '阿里学院', '阿里学院是阿里巴巴公司于2004年9月10日在其五周年庆典之际，宣布创办成立企业学院，这是中国互联网第一家企业学院。', '0', '1', 'org/2019/01/阿里.jpg', '杭州某地', '2019-01-31 20:48:41.364621', '2019-03-16 15:17:21.600793', '7', 'pxjg', '0', '0', null), ('9', 'mooc学院', 'MOOC学院是果壳网旗下的一个讨论MOOC（大型开放式网络课程）课程的学习社区。MOOC学院收录了主流的三大课程提供商Coursera、Udacity、edX的所有课程，并将大部分课程的课程简介翻译成中文。用户可以在MOOC学院给上过的MOOC课程点评打分，在学习的过程中和同学讨论课程问题，记录自己的上课笔记。', '0', '0', 'org/2019/01/mooc.jpg', '深圳某地', '2019-01-31 20:51:36.121475', '2019-01-31 20:51:36.121523', '3', 'gr', '0', '0', null), ('10', 'CSDN学院', 'CSDN学院是CSDN最新推出的一个面向软件开发者的IT技术职业培训平台，旨在提供优质的IT课程，创造更为方便、快捷的学习方式。自2015年1月发布至今，CSDN学院已拥有了500000+学习用户，签约了400+IT资深讲师，上线了500+优质实战课程。', '0', '0', 'org/2019/01/csdn.jpg', '南京江宁莱茵达路', '2019-01-31 20:53:23.424124', '2019-01-31 20:53:23.424149', '6', 'pxjg', '0', '0', null);
 COMMIT;
 
 -- ----------------------------
@@ -455,7 +455,7 @@ CREATE TABLE `organization_teacher` (
 --  Records of `organization_teacher`
 -- ----------------------------
 BEGIN;
-INSERT INTO `organization_teacher` VALUES ('1', '张三', '5', '苏宁', '技术总监', '幽默', '7', '1', '2019-02-05 09:43:22.064782', '2019-02-27 23:52:26.379385', '1', 'teacher/2019/02/aobama_iZoy5Wk.png', '18'), ('2', '李四', '6', '北大', '博士生导师', '风趣', '0', '0', '2019-02-05 09:43:52.343785', '2019-02-05 22:05:07.590881', '2', 'teacher/2019/02/aobama.png', '18'), ('3', '王二', '10', '小米', '总裁', '霸气', '0', '0', '2019-03-16 16:39:24.339147', '2019-03-16 16:39:24.339183', '1', 'teacher/2019/03/default_middile_1.png', '18');
+INSERT INTO `organization_teacher` VALUES ('1', '张三', '5', '苏宁', '技术总监', '幽默', '8', '2', '2019-02-05 09:43:22.064782', '2019-03-16 06:02:57.643257', '1', 'teacher/2019/02/aobama_iZoy5Wk.png', '18'), ('2', '李四', '6', '北大', '博士生导师', '风趣', '0', '0', '2019-02-05 09:43:52.343785', '2019-02-05 22:05:07.590881', '2', 'teacher/2019/02/aobama.png', '18'), ('3', '王二', '10', '小米', '总裁', '霸气', '0', '0', '2019-03-16 16:39:24.339147', '2019-03-16 16:39:24.339183', '1', 'teacher/2019/03/default_middile_1.png', '18');
 COMMIT;
 
 -- ----------------------------
@@ -491,13 +491,13 @@ CREATE TABLE `users_emailverifyrecord` (
   `send_type` varchar(20) NOT NULL,
   `send_time` datetime(6) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Records of `users_emailverifyrecord`
 -- ----------------------------
 BEGIN;
-INSERT INTO `users_emailverifyrecord` VALUES ('13', 'JFU1', '1494570764@qq.com', 'update_email', '2019-02-17 22:28:20.190923'), ('16', '0ks89ticmOg2zlHe', 'qqqq@163.com', 'register', '2019-02-18 01:58:19.921558');
+INSERT INTO `users_emailverifyrecord` VALUES ('13', 'JFU1', '1494570764@qq.com', 'update_email', '2019-02-17 22:28:20.190923'), ('16', '0ks89ticmOg2zlHe', 'qqqq@163.com', 'register', '2019-02-18 01:58:19.921558'), ('17', 'PwLB87oy6l0cKbSr', '414820128@qq.com', 'register', '2019-03-16 05:58:57.454263');
 COMMIT;
 
 -- ----------------------------
@@ -509,9 +509,9 @@ CREATE TABLE `users_userprofile` (
   `password` varchar(128) NOT NULL,
   `last_login` datetime(6) DEFAULT NULL,
   `is_superuser` tinyint(1) NOT NULL,
-  `username` varchar(30) NOT NULL,
+  `username` varchar(150) NOT NULL,
   `first_name` varchar(30) NOT NULL,
-  `last_name` varchar(30) NOT NULL,
+  `last_name` varchar(150) NOT NULL,
   `email` varchar(254) NOT NULL,
   `is_staff` tinyint(1) NOT NULL,
   `is_active` tinyint(1) NOT NULL,
@@ -526,13 +526,13 @@ CREATE TABLE `users_userprofile` (
   `update_time` datetime(6) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `username` (`username`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Records of `users_userprofile`
 -- ----------------------------
 BEGIN;
-INSERT INTO `users_userprofile` VALUES ('1', 'pbkdf2_sha256$24000$hBJyBrWpnkIC$RtZdIRx35yO6nQ8lNft+d9YVO2XTnZIVheOf7i4/7V4=', '2019-01-10 22:17:00.000000', '1', 'admin', '', '', 'admin@qq.com', '1', '1', '2019-01-09 15:17:00.000000', 'admin', '2019-02-23', 'male', 'jiangsu nanjing', '', 'image/2019/02/aobama_maTw6bZ.png', '2019-01-09 15:17:33.200038', '2019-02-23 16:08:06.581987'), ('11', 'pbkdf2_sha256$24000$BnfJpntO1Otm$gBYO7xyKSnuTcQIdNHd1KMxVY7D++sCztBVEU2kKJEo=', '2019-03-16 16:52:45.275937', '1', 'lijinzhou', '', '', 'lijinzhou@qq.com', '1', '1', '2019-03-16 15:54:51.400074', 'HelloWorld', '2000-03-16', 'male', '江苏省南京市', '1377097666', 'image/2019/03/aobama_0QihdKe.png', '2019-03-16 15:54:51.504646', '2019-03-16 16:18:42.253025');
+INSERT INTO `users_userprofile` VALUES ('1', 'pbkdf2_sha256$24000$hBJyBrWpnkIC$RtZdIRx35yO6nQ8lNft+d9YVO2XTnZIVheOf7i4/7V4=', '2019-01-10 22:17:00.000000', '1', 'admin', '', '', 'admin@qq.com', '1', '1', '2019-01-09 15:17:00.000000', 'admin', '2019-02-23', 'male', 'jiangsu nanjing', '', 'image/2019/02/aobama_maTw6bZ.png', '2019-01-09 15:17:33.200038', '2019-02-23 16:08:06.581987'), ('11', 'pbkdf2_sha256$24000$BnfJpntO1Otm$gBYO7xyKSnuTcQIdNHd1KMxVY7D++sCztBVEU2kKJEo=', '2019-03-16 16:52:45.275937', '1', 'lijinzhou', '', '', 'lijinzhou@qq.com', '1', '1', '2019-03-16 15:54:51.400074', 'HelloWorld', '2000-03-16', 'male', '江苏省南京市', '1377097666', 'image/2019/03/aobama_0QihdKe.png', '2019-03-16 15:54:51.504646', '2019-03-16 16:18:42.253025'), ('12', 'pbkdf2_sha256$100000$yIV0RV9cDD4v$0oWHB6BiBwIabHM3oMqGFNOOqJPv7dZ2vuSCkgRslGg=', '2019-03-16 06:00:22.078163', '0', '414820128@qq.com', '', '', '414820128@qq.com', '0', '1', '2019-03-16 05:58:57.338401', '小李', '2019-03-16', 'male', '南京江宁', '1377097666', 'image/2019/03/aobama_0QihdKe_E9nSerp.png', '2019-03-16 05:58:57.450877', '2019-03-16 06:01:27.715843');
 COMMIT;
 
 -- ----------------------------
