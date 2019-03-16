@@ -2,448 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b467db-9c61-41a7-8651-a2528e805ba2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/courses/migrations/0012_auto_20190302_2145.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/ueditor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mxonline.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9264e331-035c-4841-b88e-5133606752d9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9264e331-035c-4841-b88e-5133606752d9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/courses/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/courses/adminx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/courses/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/courses/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/adminx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/course-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/course-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/usercenter-base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/usercenter-base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/usercenter-fav-course.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/usercenter-fav-course.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/usercenter-fav-org.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/usercenter-fav-org.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/usercenter-fav-teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/usercenter-fav-teacher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/usercenter-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/usercenter-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/usercenter-message.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/usercenter-message.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/.idea/前端html源码.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/css/aui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/css/aui_iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/css/lq.datetimepick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/css/mooc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/css/muke/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/css/muke/common-less.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/css/muke/course/common-less.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/css/muke/course/course-comment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/css/muke/course/learn-less.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/css/video-js.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/403.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/course-comment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/course-detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/course-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/course-play.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/course-video.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/forgetpwd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/org-detail-course.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/org-detail-desc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/org-detail-homepage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/org-detail-teachers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/org-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/password_reset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/teacher-detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/teachers-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/usercenter-fav-course.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/usercenter-fav-org.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/usercenter-fav-teacher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/usercenter-info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/usercenter-message.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/html/usercenter-mycourse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/01_mid.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/01_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/02_mid.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/02_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/57a801860001c34b12000460.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/57aa86a0000145c512000460.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/about_nav_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/aobama.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/arrow_g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/authentication.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/bank1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/bank2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/bank3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/bank4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/bank5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/banner_icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/banner_icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/banner_icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/banner_icon4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/bgblack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/billbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/billbox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/billboxactive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/billcheck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/billcheckg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/bjdx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/btn1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/btn2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/btn3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/btn4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/check2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/check3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/check4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/check_alt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/checkbox.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/checked.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/code.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/companydes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/companylogo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/companyrank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/compright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/contract.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/course.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/diary-edit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/dig_close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/drop_plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/drop_plus_g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/error-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/feature1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/feature2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/feature3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/feature4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/feature5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/feature6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/filebg/avi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/filebg/cdr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/filebg/csv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/filebg/doc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/filebg/jpg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/filebg/mp3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/filebg/pdf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/filebg/png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/filebg/ppt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/filebg/rar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/filebg/txt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/filebg/xls.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/filebg/zip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/filebg/复件 txt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/fold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/footlogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/fqy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/g_star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/gj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/goback.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/group.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/group_recommend.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/gx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/h_star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/header_middle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/help_index_pic.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/homepage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/ht-top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/icon-diary-jl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/icon-diary-my.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/icon-diary-user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/icon-release-active.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/icon-release-on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/icon-release-over.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/laba.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/list_time.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/login-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/mask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/mayun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/module1_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/module1_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/module3_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/module4_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/module4_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/module4_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/module4_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/module4_4_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/module4_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/module5_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/module5_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/module6_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/module6bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/my.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/mysql.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/nav_arrow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/nav_hot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/njdx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/oyf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/path2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/path3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/path4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/path5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/path6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pathbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pathbg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pay1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pay2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pay3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pay4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/paypic1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/paypic2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic1_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic403.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic503.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pic9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pixel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/plus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/pop-tips-info-arr.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/python-zhengze.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/python.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/qhdx-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/qhdx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/r_star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/rankgold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/rankgreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/release1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/release2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/release3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/release4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/release5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/release6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/release7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/release8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/rightform1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/rightform2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/rightform3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/rolling.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/sass.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/scores.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/search_btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/select-arr-default.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/select_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/select_arrow2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/send.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/share_c1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/share_c1_g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/share_c2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/share_c3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/share_c4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/share_c5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/share_c6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/share_c7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/share_c8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/share_c9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/side1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/side1_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/side2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/side2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/side3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/side3_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/side4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/side4_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/slide_l.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/slide_l_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/slide_r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/slide_r_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/star-btn-hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/star-btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/star-hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/tab-jt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/tab.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/tel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/tell.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/time.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/top_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/unfold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/upload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/user.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/weixi_icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/weixi_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/weixi_sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/word403.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/word503.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/x_alt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/images/zwj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/background.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/cancel-off-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/cancel-on-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/coffee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/face-a-off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/face-a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/face-b-off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/face-b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/face-c-off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/face-c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/face-d-off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/face-d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/face-off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/medal-off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/medal-on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/star-half-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/star-off-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/img/star-on-big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/AdrInputPopDiv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/area.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/autocomplete-init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/comment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/deco-comment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/deco-common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/deco-user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/fastclick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/fliplightbox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/fold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/jQuery.artTxtCount.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/jcarousel.connected-carousels.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/jquery-migrate-1.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/jquery-powerFloat-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/jquery-xmenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/jquery.autocomplete.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/jquery.cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/jquery.formset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/jquery.imagezoom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/jquery.jcarousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/jquery.uploadify.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/lq.datetimepick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/datePicker/mobiscroll.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/datePicker/mobiscroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/jquery.flexslider-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/jquery.raty.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/jquery.scrollLoading.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/jquery.timer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/jquery.upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/laydate/laydate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/laydate/need/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/laydate/skins/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/laydate/skins/default/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/layer/extend/layer.ext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/layer/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/layer/skin/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/layer/skin/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/layer/skin/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/layer/skin/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/layer/skin/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/layer/skin/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/layer/skin/layer.ext.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/queryCity/css/cityLayout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/bg_mc_0113_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/bg_mc_0113_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/bg_mc_0113_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/bg_mc_0113_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/bg_mc_0130_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/bg_mc_0130_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/queryCity/images/ts-indexcity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/queryCity/js/public.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/queryCity/js/public2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/queryCity/js/queryAllAreas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/queryCity/js/queryAllProvinces.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/queryCity/js/queryCities.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/plugins/upload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/selectUi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/unslider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/validateDialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/video.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/js/wechat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/Entity/2016/11/default_middile_14_20161113173158_261.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/Entity/2016/11/default_middile_1_20161113172604_856.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/Entity/ueditor/default_middile_13_20161113185849_453.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/banner/2016/11/57a801860001c34b12000460.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/banner/2016/11/57a801860001c34b12000460_z4Vb8zl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/banner/2016/11/57aa86a0000145c512000460.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/banner/2016/11/57aa86a0000145c512000460_GXIBATC.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/banner/2016/11/57aa86a0000145c512000460_nMwvoQD.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/course/resource/2016/11/curl_wget.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/course/resource/2016/11/media.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/course/resource/2016/11/media/org/2016/11/bjdx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/course/resource/2016/11/media/org/2016/11/imooc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/course/resource/2016/11/media/org/2016/11/imooc_Gn1sRjp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/course/resource/2016/11/media/org/2016/11/imooc_OO2ykYP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/course/resource/2016/11/media/org/2016/11/imooc_V0TJOyb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/course/resource/2016/11/media/org/2016/11/imooc_Y2Tonsq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/course/resource/2016/11/media/org/2016/11/imooc_klgAUn5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/course/resource/2016/11/media/org/2016/11/imooc_qEaMov1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/course/resource/2016/11/media/org/2016/11/njdx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/course/resource/2016/11/media/org/2016/11/qhdx-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/11/540e57300001d6d906000338-240-135.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/11/540e57300001d6d906000338-240-135_MSIqfvw.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/11/540e57300001d6d906000338-240-135_Z3HIQ2t.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/11/540e57300001d6d906000338-240-135_mvvGYHL.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/11/540e57300001d6d906000338-240-135_n0L8vbw.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/11/540e57300001d6d906000338-240-135_wH52IED.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/11/57035ff200014b8a06000338-240-135.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/11/57035ff200014b8a06000338-240-135_0nFiBSI.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/11/57035ff200014b8a06000338-240-135_dHfj8Nq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/11/default_middile_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/11/mysql.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/12/57035ff200014b8a06000338-240-135_dHfj8Nq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/12/mysql.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/12/python文件处理.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/12/python错误和异常.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/2016/12/python面向对象.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/ueditor/57a801860001c34b12000460_z4Vb8zl_20161210233313_629.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/ueditor/57aa86a0000145c512000460_20161210234050_865.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/ueditor/aobama_20161113225004_372.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/courses/ueditor/aobama_20161113225044_773.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/image/2016/11/default_middile_18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/image/2016/11/default_middile_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/image/2016/11/default_middile_2_WZ1559E.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/image/2016/11/default_middile_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/image/2016/11/default_middile_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/image/2016/12/default_big_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/org/2016/11/bjdx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/org/2016/11/imooc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/org/2016/11/imooc_Gn1sRjp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/org/2016/11/imooc_OO2ykYP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/org/2016/11/imooc_V0TJOyb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/org/2016/11/imooc_Y2Tonsq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/org/2016/11/imooc_klgAUn5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/org/2016/11/imooc_qEaMov1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/org/2016/11/njdx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/org/2016/11/qhdx-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/org/2016/12/bjdx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/org/2016/12/bjdx_bcd0m07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/org/2016/12/bjdx_cCpdUw8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/org/2016/12/imooc_Gn1sRjp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/org/2016/12/imooc_klgAUn5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/teacher/2016/11/aobama.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/media/teacher/2016/11/aobama_CXWwMef.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端html源码/留言板.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/operation/adminx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/organization/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/organization/adminx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/_top.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_top.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/course-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/course-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -490,29 +61,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/courses/adminx.py">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-              <folding>
-                <element signature="e#18#31#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="53">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/excel/model_list.top_toolbar.import.html">
+        <entry file="file://$PROJECT_DIR$/static/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-672" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/usercenter-base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="186">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -522,7 +83,19 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="187">
-                <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+                <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="119">
+                <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -530,55 +103,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/usercenter-fav-course.html">
+        <entry file="file://$PROJECT_DIR$/MxOnline/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="152">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/usercenter-fav-teacher.html">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="340">
+              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/usercenter-info.html">
+        <entry file="file://$PROJECT_DIR$/apps/courses/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="144">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/usercenter-message.html">
+        <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="1996">
+              <caret line="1523" column="27" selection-start-line="1523" selection-start-column="27" selection-end-line="1523" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/usercenter-fav-org.html">
+        <entry file="file://$USER_HOME$/.virtualenvs/mxonline2/lib/python2.7/site-packages/django/views/generic/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="221">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/excel.py">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="-507">
+              <caret line="36" column="105" selection-start-line="36" selection-start-column="105" selection-end-line="36" selection-end-column="105" />
             </state>
           </provider>
         </entry>
@@ -595,10 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>授课机构</find>
-      <find>公开课</find>
-      <find>main</find>
-      <find>下载</find>
       <find>开始学习</find>
       <find>讲师</find>
       <find>评论</find>
@@ -625,6 +194,10 @@
       <find>_t</find>
       <find>_top</find>
       <find>detail</find>
+      <find>html</find>
+      <find>imgslide</find>
+      <find>_to</find>
+      <find>imgslide2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -633,16 +206,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/前端html源码/html/course-play.html" />
-        <option value="$PROJECT_DIR$/apps/courses/urls.py" />
-        <option value="$PROJECT_DIR$/templates/course-video.html" />
-        <option value="$PROJECT_DIR$/templates/course-play.html" />
-        <option value="$PROJECT_DIR$/templates/course-list.html" />
         <option value="$PROJECT_DIR$/templates/teachers-list.html" />
         <option value="$PROJECT_DIR$/templates/teacher-detail.html" />
         <option value="$PROJECT_DIR$/apps/organization/urls.py" />
         <option value="$PROJECT_DIR$/apps/courses/views.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/templates/course-comment.html" />
         <option value="$PROJECT_DIR$/apps/utils/email.py" />
         <option value="$PROJECT_DIR$/apps/users/forms.py" />
@@ -650,7 +217,6 @@
         <option value="$PROJECT_DIR$/apps/users/urls.py" />
         <option value="$PROJECT_DIR$/templates/_pagination.html" />
         <option value="$PROJECT_DIR$/apps/users/models.py" />
-        <option value="$PROJECT_DIR$/templates/_top.html" />
         <option value="$PROJECT_DIR$/apps/organization/models.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/templates/index.html" />
@@ -658,14 +224,12 @@
         <option value="$PROJECT_DIR$/templates/500.html" />
         <option value="$PROJECT_DIR$/apps/users/views.py" />
         <option value="$PROJECT_DIR$/extra_apps/xadmin/plugins/auth.py" />
-        <option value="$PROJECT_DIR$/apps/organization/adminx.py" />
         <option value="$PROJECT_DIR$/MxOnline/urls.py" />
         <option value="$PROJECT_DIR$/templates/org-list.html" />
         <option value="$PROJECT_DIR$/apps/organization/views.py" />
         <option value="$PROJECT_DIR$/templates/org-detail-course.html" />
         <option value="$PROJECT_DIR$/templates/org-detail-teachers.html" />
         <option value="$PROJECT_DIR$/templates/org-detail-homepage.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/org_base.html" />
         <option value="$PROJECT_DIR$/extra_apps/xadmin/plugins/uedit.py" />
         <option value="$PROJECT_DIR$/MxOnline/settings.py" />
@@ -684,12 +248,23 @@
         <option value="$PROJECT_DIR$/templates/usercenter-info.html" />
         <option value="$PROJECT_DIR$/templates/usercenter-message.html" />
         <option value="$PROJECT_DIR$/templates/usercenter-base.html" />
+        <option value="$PROJECT_DIR$/templates/course-list.html" />
+        <option value="$PROJECT_DIR$/apps/organization/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/operation/adminx.py" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/_top.html" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="-1295" />
+    <option name="y" value="-24" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="816" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -697,7 +272,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -707,22 +281,13 @@
             </path>
             <path>
               <item name="MxOnline" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
-              <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MxOnline" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MxOnline" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -802,7 +367,8 @@
       <workItem from="1549627959789" duration="2022000" />
       <workItem from="1549712569581" duration="39808000" />
       <workItem from="1550389650013" duration="46841000" />
-      <workItem from="1551512110573" duration="8150000" />
+      <workItem from="1551512110573" duration="9146000" />
+      <workItem from="1552571662624" duration="6678000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1547218703299</created>
@@ -874,11 +440,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551284860694</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="项目完成">
+      <created>1551968570010</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1551968570010</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170084000" />
+    <option name="totallyTimeSpent" value="177758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -890,15 +463,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-1920" y="-68" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11516452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122470714" />
       <window_info id="Structure" order="1" weight="0.24964234" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.40120482" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.3192771" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.41584158" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" visible="true" weight="0.3188119" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32771084" />
@@ -906,7 +480,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4985694" weight="0.4433735" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32771084" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.59518075" />
-      <window_info anchor="bottom" id="manage.py@MxOnline" order="11" weight="0.386747" />
+      <window_info anchor="bottom" id="manage.py@MxOnline" order="11" weight="0.6188119" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32970297" />
@@ -914,7 +488,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.15522175" />
+      <window_info anchor="right" id="Database" order="4" weight="0.25292864" />
       <window_info anchor="right" id="SciView" order="5" weight="0.3297568" />
     </layout>
   </component>
@@ -972,7 +546,8 @@
     <MESSAGE value="tongbu" />
     <MESSAGE value="tongbu1" />
     <MESSAGE value="解决一些前端问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决一些前端问题" />
+    <MESSAGE value="项目完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1026,141 +601,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="126" column="36" lean-forward="true" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/403.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/500.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.ttf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/organization/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/courses/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" column="39" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="128" column="35" selection-start-line="128" selection-start-column="15" selection-end-line="128" selection-end-column="35" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="15" />
-          <folding>
-            <element signature="e#17#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://9264e331-035c-4841-b88e-5133606752d9/schema/mxonline/table/operation_userask" />
-    <entry file="file://$PROJECT_DIR$/apps/organization/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="90" column="40" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
-          <folding>
-            <element signature="e#16#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/_top.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="113" column="1" selection-start-line="113" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/org-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="137" column="35" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/org-detail-desc.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/org-detail-homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
-          <folding>
-            <element signature="e#611#925#0#HTML" />
-            <element signature="e#950#1302#0#HTML" />
-            <element signature="e#1986#2219#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/org-detail-teachers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/org-detail-course.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1181,16 +621,6 @@
     <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-592" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <element signature="e#128#141#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/models.py">
@@ -1273,23 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="38" selection-start-line="38" selection-end-line="54" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="e#16#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/ueditor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1333,25 +746,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/courses/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-          <folding>
-            <element signature="e#18#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/excel/model_list.top_toolbar.import.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/usercenter-fav-org.html">
+    <entry file="file://$PROJECT_DIR$/templates/usercenter-base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="697">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1379,7 +780,152 @@
     <entry file="file://$PROJECT_DIR$/templates/usercenter-message.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/usercenter-fav-org.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/course-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#18#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="e#128#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-439">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#18#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1008">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#16#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="171" column="6" selection-start-line="171" selection-start-column="2" selection-end-line="171" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/org-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teachers-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9264e331-035c-4841-b88e-5133606752d9/schema/mxonline/table/users_userprofile">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/_top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/mxonline2/lib/python2.7/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/unslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1387,16 +933,54 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="187">
-            <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/usercenter-base.html">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="340">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-507">
+          <caret line="36" column="105" selection-start-line="36" selection-start-column="105" selection-end-line="36" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1996">
+          <caret line="1523" column="27" selection-start-line="1523" selection-start-column="27" selection-end-line="1523" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -6,32 +6,32 @@ from .models import UserFavorite, UserAsk, UserMessage, UserCourse, CourseCommen
 
 
 class UserAskAdmin(object):
-    list_display = ("id", "name", "mobile", "course_name", "create_time", "update_time")
+    list_display = ("name", "mobile", "course_name", "create_time", "update_time")
     list_filter = ("create_time", "update_time")
     search_fields = ("name", "mobile", "course_name")
 
 
 class CourseCommentsAdmin(object):
-    list_display = ("id", "user", "course", "comments")
-    list_filter = ("id", "create_time", "update_time")
+    list_display = ("user", "course", "comments")
+    list_filter = ("create_time", "update_time")
     search_fields = ("user", "course", "comments")
 
 
 class UserFavoriteAdmin(object):
-    list_display = ("id", "user", "fav_id", "fav_type", "create_time", "update_time")
-    list_filter = ("id", "fav_id", "fav_type", "create_time", "update_time")
+    list_display = ("user", "fav_id", "fav_type", "create_time", "update_time")
+    list_filter = ("fav_id", "fav_type", "create_time", "update_time")
     search_fields = ("user", "fav_id")
 
 
 class UserMessageAdmin(object):
-    list_display = ("id", "user", "message", "has_read", "create_time", "update_time")
-    list_filter = ("id", "has_read", "create_time", "update_time")
+    list_display = ("user", "message", "has_read", "create_time", "update_time")
+    list_filter = ("has_read", "create_time", "update_time")
     search_fields = ("message",)
 
 
 class UserCourseAdmin(object):
-    list_display = ("id", "user", "course", "comments")
-    list_filter = ("id", "create_time", "update_time")
+    list_display = ("user", "course", "comments")
+    list_filter = ("create_time", "update_time")
     search_fields = ("user", "course", "comments")
 
 

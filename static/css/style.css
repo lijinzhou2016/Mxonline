@@ -1520,6 +1520,11 @@ textarea:focus {
     overflow: hidden;
 }
 
+.imgslide2,.imgslide2 ul,.imgslide2 ul li{
+    height: 100% !important;
+    position: relative;
+}
+
 .imgslide li,
 .imgslide2 li,
 .imgslide3 li,
