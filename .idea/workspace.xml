@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="59b467db-9c61-41a7-8651-a2528e805ba2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/organization/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/organization/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,15 +50,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/course-comment.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3256">
-              <caret line="148" column="48" selection-start-line="148" selection-start-column="48" selection-end-line="148" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/course-play.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2772">
@@ -102,11 +93,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="770">
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/teachers-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="812">
+              <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -120,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/organization/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3520">
-              <caret line="170" column="44" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="44" />
+            <state relative-caret-position="1060">
+              <caret line="282" column="28" selection-start-line="282" selection-start-column="28" selection-end-line="282" selection-end-column="28" />
               <folding>
                 <element signature="e#16#46#0" expanded="true" />
               </folding>
@@ -245,11 +245,11 @@
         <option value="$PROJECT_DIR$/extra_apps/xadmin/plugins/filters.py" />
         <option value="$PROJECT_DIR$/extra_apps/xadmin/views/website.py" />
         <option value="$PROJECT_DIR$/MxOnline/settings.py" />
-        <option value="$PROJECT_DIR$/apps/organization/views.py" />
         <option value="$PROJECT_DIR$/templates/course-comment.html" />
         <option value="$PROJECT_DIR$/templates/course-detail.html" />
         <option value="$PROJECT_DIR$/apps/courses/views.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/apps/organization/views.py" />
       </list>
     </option>
   </component>
@@ -391,7 +391,7 @@
       <workItem from="1551512110573" duration="9146000" />
       <workItem from="1552571662624" duration="6678000" />
       <workItem from="1552925892381" duration="679000" />
-      <workItem from="1552971701319" duration="738000" />
+      <workItem from="1552971701319" duration="1416000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1547218703299</created>
@@ -477,11 +477,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552734428613</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="OK">
+      <created>1552976776491</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552976776492</updated>
+    </task>
+    <task id="LOCAL-00014" summary="修复teacher_detail报错">
+      <created>1552988727833</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1552988727833</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185202000" />
+    <option name="totallyTimeSpent" value="185880000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,7 +510,7 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17950754" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35067514" />
       <window_info id="Structure" order="1" weight="0.24964234" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -578,7 +592,8 @@
     <MESSAGE value="解决一些前端问题" />
     <MESSAGE value="项目完成" />
     <MESSAGE value="OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="OK" />
+    <MESSAGE value="修复teacher_detail报错" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复teacher_detail报错" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -705,13 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="21" selection-start-column="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/teachers-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -930,16 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/organization/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3520">
-          <caret line="170" column="44" selection-start-line="170" selection-start-column="28" selection-end-line="170" selection-end-column="44" />
-          <folding>
-            <element signature="e#16#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -969,8 +967,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="770">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teachers-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1060">
+          <caret line="282" column="28" selection-start-line="282" selection-start-column="28" selection-end-line="282" selection-end-column="28" />
+          <folding>
+            <element signature="e#16#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
