@@ -161,14 +161,6 @@ USE_TZ = False
 1 绝对路径配置：/mystatic/css/test.css
 2 相对路径配置："{% static 'css/test.css' %}"
 """
-# 调用时的路径
-STATIC_URL = '/static/'
-# 实际具体的路径
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
-    os.path.join(BASE_DIR, "extra_apps", "DjangoUeditor", "static")
-)
-
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
@@ -200,3 +192,16 @@ PAGINATION_SETTINGS = {
 
     'SHOW_FIRST_PAGE_WHEN_INVALID': True,
 }
+
+# 调用时的路径
+STATIC_URL = '/static/'
+
+# 实际具体的路径，uwsgi + nginx部署时关闭，否则打开
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, "static"),
+#     os.path.join(BASE_DIR, "extra_apps", "DjangoUeditor", "static")
+# )
+
+# uwsgi + nginx 部署时打开，否则关闭
+# uwsgi + nginx 部署：python manage.py collectstatic
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
